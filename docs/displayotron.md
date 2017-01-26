@@ -2,7 +2,7 @@
 
 A Display-O-Tron can be purchased from [here](https://www.adafruit.com/products/2694)
 
-The github repo is [here](https://github.com/pimoroni/dot3k).
+The Display-O-Tron github repo is [here](https://github.com/pimoroni/dot3k).
 
 A *Getting Started* is [here](https://learn.pimoroni.com/tutorial/display-o-tron/getting-started-with-display-o-tron)
 

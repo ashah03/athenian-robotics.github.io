@@ -36,6 +36,7 @@ pages:
   - Blinkt: blinkt.md
   - Unicorn Hat: unicorn.md
   - Display-O-Tron Hat: displayotron.md
+  - Pan-Tilt Hat: pantilthat.md
 - Robots:
   - GoPiGo: gopigo.md
   - EV3:

@@ -1,9 +1,9 @@
 # Unicorn Hat Notes
 
-A Unicorn Hat can be purchased 
+A Unicorn HAT can be purchased 
 [here](https://shop.pimoroni.com/products/unicorn-hat)
 
-The github repo is [here](https://github.com/pimoroni/unicorn-hat).
+The Unicorn HAT github repo is [here](https://github.com/pimoroni/unicorn-hat).
 
 Examples are [here](https://github.com/pimoroni/unicorn-hat/tree/master/examples).
 

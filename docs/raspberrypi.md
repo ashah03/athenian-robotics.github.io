@@ -63,7 +63,7 @@ Detailed instructions are
 
 Discover what SIDs are available with:
 ```bash
-$ iwlist wlan0 scan
+pi@raspberrypi:~ $ iwlist wlan0 scan
 ```
 
 Add a *network* entry to */etc/wpa_supplicant/wpa_supplicant.conf*
@@ -89,8 +89,8 @@ network={
 
 Restart WiFi on the Raspi with:
  ```bash
-$ sudo ifdown wlan0
-$ sudo ifup wlan0
+pi@raspberrypi:~ $ sudo ifdown wlan0
+pi@raspberrypi:~ $ sudo ifup wlan0
 ```
  
 ## Enable VNC
@@ -117,6 +117,18 @@ Tab to <Finish> and then reboot.
 pi@raspberrypi:~ $ sudo raspi-config
 ```
 
+## Install Python
+
+Python 3:
+```bash
+pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
+```
+
+Python 2:
+```bash
+pi@raspberrypi:~ $ sudo apt-get install python python-pip python-dev
+```
+
 ## Install File sharing
 
 Details are [here](http://www.instructables.com/id/How-to-share-files-between-Mac-OSX-and-Raspberry-P/?ALLSTEPS).
@@ -125,4 +137,6 @@ Enable file sharing with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install netatalk
 ```
+
+
 
