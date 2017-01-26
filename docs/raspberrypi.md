@@ -58,11 +58,21 @@ pi@raspberrypi:~ $ sudo reboot now
 ```
 
 ## Enable Wi-Fi
+Detailed instructions are 
+[here](http://www.makeuseof.com/tag/setup-wi-fi-bluetooth-raspberry-pi-3/)
+
+Discover what SIDs are available with:
+```bash
+$ iwlist wlan0 scan
+```
+
+Add a *network* entry to */etc/wpa_supplicant/wpa_supplicant.conf*
+for each SID with which the Raspi will need to connect:
 ```bash
 pi@raspberrypi:~ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
-Add a network entry for each SID with which the Raspi will need to connect:
+The *network* entries should look like:
 ```snakeyaml
 network={
     ssid="MyWiFiNetwork1"
@@ -77,6 +87,12 @@ network={
 }
 ```
 
+Restart WiFi on the Raspi with:
+ ```bash
+$ sudo ifdown wlan0
+$ sudo ifup wlan0
+```
+ 
 ## Enable VNC
 
 Enable VNC with `raspi-config`. Choose the `Interfacing Options` and then 
