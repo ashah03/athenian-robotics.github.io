@@ -8,6 +8,7 @@ pages:
 - Github Repos: github-repos.md
 - Machine Setup:
   - OSX: osx-setup.md
+  - Raspberry Pi: raspberrypi.md
   - Windows: windows-setup.md
 - Python:
   - Admin: python-admin.md
@@ -31,7 +32,6 @@ pages:
   - XQuartz: xquartz.md
   - MkDocs: mkdocs.md
 - Hardware Notes:
-  - Raspberry Pi: raspberrypi.md
   - SD Cards: sdcards.md
   - Blinkt: blinkt.md
   - Unicorn Hat: unicorn.md
