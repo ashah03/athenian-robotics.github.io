@@ -20,6 +20,7 @@ pages:
   - numpy: numpy.md
   - gRPC: grpc.md
   - MQTT Client: mqtt-client.md
+  - pyFirmata: pyfirmata.md
   - Tkinter: tkinter.md
 - Software Notes:
   - Git: git.md
@@ -31,7 +32,6 @@ pages:
   - MkDocs: mkdocs.md
 - Hardware Notes:
   - Raspberry Pi: raspberrypi.md
-  - Arduino: arduino.md
   - SD Cards: sdcards.md
   - Blinkt: blinkt.md
   - Unicorn Hat: unicorn.md
