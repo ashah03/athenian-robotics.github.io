@@ -16,6 +16,7 @@ pages:
 - Python Packages:
   - OpenCV: opencv.md
   - imutils: imutils.md
+  - pyserial: pyserial.md
   - numpy: numpy.md
   - gRPC: grpc.md
   - MQTT Client: mqtt-client.md
