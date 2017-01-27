@@ -35,10 +35,10 @@ Make sure to use version `3.2.0` instead of `3.1.0`.
 
 ## Displaying Raspi OpenCV camera images to a Mac
 
-1) Set **DISPLAY** env var to use the OSX machine (in this case *my-mac*). 
+1) Set **DISPLAY** env var to use the OSX machine (in this case *my-mac.local*). 
 On the Raspi type:
 ```bash
-$ set DISPLAY my-mac:0
+$ export DISPLAY=my-mac.local:0
 ```
 
 2) Start the *[X](https://en.wikipedia.org/wiki/X_Window_System) server* 

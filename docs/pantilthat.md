@@ -11,6 +11,7 @@ The Python API is described [here](http://docs.pimoroni.com/pantilthat/).
 
 Python 3:
 ```bash
+pi@raspberrypi:~ $ sudo apt-get install python-smbus
 pi@raspberrypi:~ $ sudo apt-get install python3-pantilthat
 ```
 
