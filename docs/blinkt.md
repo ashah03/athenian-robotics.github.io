@@ -17,13 +17,3 @@ Python 2:
 $ sudo apt-get install python-blinkt
 ```
 
-### OSX
-
-Python 3:
-```bash
-$ pip3 install blinkt
-```
-Python 2:
-```bash
-$ pip install blinkt
-```

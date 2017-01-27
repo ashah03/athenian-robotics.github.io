@@ -119,12 +119,12 @@ pi@raspberrypi:~ $ sudo raspi-config
 
 ## Install Python
 
-Python 3:
+Install Python3 with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
 ```
 
-Python 2:
+Install Python2 with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install python python-pip python-dev
 ```
