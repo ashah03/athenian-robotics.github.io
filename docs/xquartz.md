@@ -9,9 +9,9 @@ Type this on the Mac:
 ```bash
 $ xterm + raspberrypi
 ```
-Add this line to ~/.profile on the Raspi:
+Add this line to ~/.profile or type it in the shell on the Raspi:
 ```
-DISPLAY=pleiku.local:0.0 ; export DISPLAY
+export DISPLAY=pleiku.local:0.0 
 ```
 
 Verify the setup on the Raspi with:
