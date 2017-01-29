@@ -8,7 +8,7 @@ pages:
 - Github Repos: github-repos.md
 - Machine Setup:
   - OSX: osx-setup.md
-  - Raspberry Pi: raspberrypi.md
+  - Raspbian: raspbian.md
   - Windows: windows-setup.md
 - Python:
   - Admin: python-admin.md

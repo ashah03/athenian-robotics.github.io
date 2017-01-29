@@ -4,7 +4,7 @@
 
 ### OSX
 
-* Download the [Raspbian distro](https://www.raspberrypi.org/downloads/raspbian/).
+* Download the [Raspbian distro](https://www.raspberrypi.org/downloads/raspbian/raspbian.md).
 
 *  Burn the .img file to a SD card with [Etcher](https://etcher.io).
 
