@@ -2,13 +2,21 @@
 
 ## Installation for Python
 
-Detail installation instructions are [here](http://www.grpc.io/docs/quickstart/python.html).
+Detailed installation instructions are [here](http://www.grpc.io/docs/quickstart/python.html).
 
 Install [gRPC](http://www.grpc.io/docs/guides/) with:
 
+OSX:
 ```bash
 $ pip install grpcio
-$ pip install grpcio-tools
+$ pip install grpcio-tools 
+```
+
+Raspbian:
+```bash
+$ sudo apt-get install python-dev
+$ sudo pip install grpcio
+$ sudo pip install grpcio-tools 
 ```
 
 If the installation fails with `ImportError: No module named Cython`, install *Cython* with:
