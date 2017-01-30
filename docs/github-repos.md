@@ -1,6 +1,7 @@
 # Github Repos
 
-Introductions:
+## Introductions
+
 * [mqtt-intro](https://github.com/athenian-robotics/mqtt-intro):
 `git clone https://github.com/athenian-robotics/mqtt-intro.git`
 * [opencv-intro](https://github.com/athenian-robotics/opencv-intro):
@@ -8,7 +9,8 @@ Introductions:
 * [lidar-examples](https://github.com/athenian-robotics/lidar-examples):
 `git clone https://github.com/athenian-robotics/lidar-examples.git`
 
-Robot Support:
+## Robot Support
+
 * [common-robotics](https://github.com/athenian-robotics/common-robotics):
 `git clone https://github.com/athenian-robotics/common-robotics.git`
 * [object-tracking](https://github.com/athenian-robotics/object-tracking):
@@ -18,6 +20,7 @@ Robot Support:
 * [robot-controllers](https://github.com/athenian-robotics/robot-controllers):
 `git clone https://github.com/athenian-robotics/robot-controllers.git`
 
-FRC Competions:
+## FRC Competions
+
 * [FRC-2017](https://github.com/athenian-robotics/FRC-2017):
 `git clone https://github.com/athenian-robotics/FRC-2017.git`
