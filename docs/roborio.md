@@ -4,14 +4,17 @@
 
 * Download and install [IntelliJ](https://www.jetbrains.com/idea/).
 
+
 * Download the [GradleRIO zip file](https://github.com/Open-RIO/GradleRIO/blob/master/Quickstart.zip) and 
 extract it into to your project directory.
+
 
 * Open up `build.gradle` and change `latest-version` to the latest plugin version specified 
 [here](https://plugins.gradle.org/plugin/jaci.openrio.gradle.GradleRIO). For example:
 ```
 id "jaci.openrio.gradle.GradleRIO" version "2017.1.1"
 ```
+
 
 * In *frc*, set team to 852 and set robotClass to the class that Robot is in.
 
@@ -25,13 +28,17 @@ def robotManifest = {
 }
 ```
 
+
 * Open a command line window and go to the project directory. 
 Run `gradlew idea` on Windows or `./gradlew idea` on Linux/OSX.
 
+
 * Open the .ipr file with IntelliJ.
+
 
 * A pop-up will appear about an unlinked gradle project. Link the gradle project with the 
 task-oriented option (second option down).
+
 
 * In the project there should be a */src/main/java* folder. Create a package inside called 
 `org.usfirst.frc.team852.robot`. Add your `Robot` class and add this 
@@ -39,6 +46,7 @@ to the top:
 ```java
 package org.usfirst.frc.team852.robot;
 ```
+
 
 * In IntelliJ, go to view > Tool Windows > Terminal.
 
