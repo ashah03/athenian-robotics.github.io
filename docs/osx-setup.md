@@ -34,6 +34,8 @@ $ sudo easy_install pip
 $ brew install git
 ```
 
+### [GitHub Desktop](https://desktop.github.com)
+
 ### [maven](http://maven.apache.org)
 ```bash
 $ brew install maven
@@ -48,8 +50,6 @@ $ brew install gradle
 ```bash
 $ brew install httpie
 ```
-
-### [GitKraken](https://www.gitkraken.com) or [SourceTree](https://www.sourcetreeapp.com)
 
 
 ## Ongoing Admin

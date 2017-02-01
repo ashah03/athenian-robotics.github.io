@@ -17,6 +17,10 @@ $ brew install git
 $ sudo apt-get install git
 ````
 
+## GitHub Desktop
+
+Download and install [GitHub Desktop](https://desktop.github.com).
+
 ## Cloning a Repo
 
 Clone a repo from [Athenian Robotics](https://github.com/athenian-robotics) with:
