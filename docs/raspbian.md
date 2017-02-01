@@ -138,5 +138,9 @@ Enable file sharing with:
 pi@raspberrypi:~ $ sudo apt-get install netatalk
 ```
 
+## Misc Raspbian Links
+
+[Useful Raspi Commands](http://www.circuitbasics.com/useful-raspberry-pi-commands/)
+
 
 
