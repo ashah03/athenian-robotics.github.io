@@ -1,4 +1,4 @@
-[![Documentation Status](https://readthedocs.org/projects/athenian-robotics/badge/?version=latest)](http://athenian-robotics.readthedocs.io/en/latest/?badge=latest)
+[![Documentation Status](https://readthedocs.org/projects/athenian-robotics/badge/?version=latest)](http://www.athenian-robotics.org/?badge=latest)
 
 ## Website content for [www.athenian-robotics.org](http://www.athenian-robotics.org)
 
