@@ -16,10 +16,16 @@ $ pip3 install paho-mqtt
 
 ### Raspbian
 
+Python 2
 ```bash
-$ sudo apt-get install python3-pip
+$ sudo pip install paho-mqtt
+```
+
+Python 3
+```bash
 $ sudo pip3 install paho-mqtt
 ```
+
 
 ## Programming Notes
 

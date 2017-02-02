@@ -119,14 +119,14 @@ pi@raspberrypi:~ $ sudo raspi-config
 
 ## Install Python
 
-Install Python3 with:
-```bash
-pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
-```
-
-Install Python2 with:
+Install Python 2 with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install python python-pip python-dev
+```
+
+Install Python 3 with:
+```bash
+pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
 ```
 
 ## Install File sharing

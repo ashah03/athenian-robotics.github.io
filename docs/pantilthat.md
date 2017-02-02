@@ -9,15 +9,15 @@ The Python API is described [here](http://docs.pimoroni.com/pantilthat/).
 
 ## Raspbian Installation
 
+Python 2:
+```bash
+pi@raspberrypi:~ $ sudo apt-get install python-pantilthat
+```
+
 Python 3:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install python-smbus
 pi@raspberrypi:~ $ sudo apt-get install python3-pantilthat
-```
-
-Python 2:
-```bash
-pi@raspberrypi:~ $ sudo apt-get install python-pantilthat
 ```
 
 Enable the I2C bus with `raspi-config`.

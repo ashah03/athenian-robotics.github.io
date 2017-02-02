@@ -9,16 +9,16 @@ Examples are [here](https://github.com/pimoroni/unicorn-hat/tree/master/examples
 
 ## Raspbian Installation
 
-Python 3
-```bash
-$ sudo apt-get install python3-pip python3-dev
-$ sudo pip3 install unicornhat
-```
-
 Python 2
 ```bash
 $ sudo apt-get install python-pip python-dev
 $ sudo pip install unicornhat
+```
+
+Python 3
+```bash
+$ sudo apt-get install python3-pip python3-dev
+$ sudo pip3 install unicornhat
 ```
 
 If you get an error message *Can't open /dev/mem: Permission denied*, then run the program with `sudo`.
