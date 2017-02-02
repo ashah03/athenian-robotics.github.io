@@ -88,7 +88,7 @@ network={
 ```
 
 Restart WiFi on the Raspi with:
- ```bash
+```bash
 pi@raspberrypi:~ $ sudo ifdown wlan0
 pi@raspberrypi:~ $ sudo ifup wlan0
 ```
