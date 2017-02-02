@@ -34,7 +34,7 @@ window. If your firewall blocks port 22, make sure that the repo URL begins
 with `https://` and not `git@`. 
 You can toggle between the two versions by clicking on `Use HTTPS` and `Use SSH`.
 
-## Setting up a host repo on Raspbian
+## Setting up a host repo
 
 If a Raspi does not have access to github.com (like on an FRC robot), then 
 creating a host repo will make it much easier to update code on the Raspi.
