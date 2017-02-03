@@ -39,7 +39,7 @@ You can toggle between the two versions by clicking on `Use HTTPS` and `Use SSH`
 If a Raspi does not have access to github.com (like on an FRC robot), then 
 creating a host repo will make it much easier to update code on the Raspi.
 
-* Create a bare repo and a regular repo on the Raspi for *myproject*:
+* Create a bare repo and a directory for holding code on the Raspi for *myproject*:
 ```bash
 $ mkdir git
 $ cd git
@@ -49,8 +49,9 @@ $ mkdir myproject
 ```
 
 * Add a *post-receive* git hook that will trigger a `git pull`   
-into */home/pi/git/myproject* whenever a `git push` is done to */home/pi/git/myproject.git*
-from a remote machine.
+into */home/pi/git/myproject* whenever a `git push` is done to */home/pi/git/myproject.git*. 
+File changes in */home/pi/git/myproject* will not be committable because that directory is
+not a clones repo.
 
 Edit */home/pi/git/myproject.git/hooks/post-receive* and add:
 ```bash
@@ -59,24 +60,29 @@ git --work-tree=/home/pi/git/myproject --git-dir=/home/pi/git/myproject.git chec
 echo "*** Updated myproject ***" >&2
 ```
 
-The `echo` output will be sent back the user as part of the `git push` CLI response.
+Output from `echo` will be sent back the user as part of the `git push` CLI response.
 
 * Make the hook executable with:
 ```bash
 $ chmod +x /home/pi/git/myproject.git/hooks/post-receive
 ```
 
-* On the remote machine, clone *myproject* from github and add *myproject.git* as a remote repo with:
+* On the development machine, clone *myproject* from github and add the Raspi *myproject.git* 
+directory as a remote repo with:
 ```bash
+$ cd ~/git
+$ git clone https://github.com/username/myproject.git
+$ cd myproject
 $ git remote add raspi pi@raspberrypi.local:/home/pi/git/myproject.git
 ```
 
-* You can now push updates from your remote machine to the Raspi with:
+* You can now push updates from your development machine to the Raspi with:
 ```bash
 $ git push raspi master
 ```
 
-In the case of FRC, you would push to *origin* when connected to a network reaching github.com
-and you would push to *raspi* when connected to your FRC robot network. 
+In the case of FRC, you would push to *origin* when your development machine is 
+connected to a network reaching github.com
+and push to *raspi* when connected to your FRC robot network. 
 
 
