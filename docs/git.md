@@ -51,7 +51,7 @@ $ mkdir myproject
 * Add a *post-receive* git hook that will trigger a `git pull`   
 into */home/pi/git/myproject* whenever a `git push` is done to */home/pi/git/myproject.git*. 
 File changes in */home/pi/git/myproject* will not be committable because that directory is
-not a clones repo.
+not a cloned repo.
 
 Edit */home/pi/git/myproject.git/hooks/post-receive* and add:
 ```bash
