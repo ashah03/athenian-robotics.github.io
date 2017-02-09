@@ -25,7 +25,7 @@ pi@raspberrypi:~
 ```
 
 If you get a *Host key verification failed* error when using `ssh`, 
-remove the *raspberry.local* entry from ~/.ssh/known_hosts on your Mac with:
+remove the *raspberry.local* entry from ~/.ssh/known_hosts on the Mac with:
 
 ```bash
 $ nano ~/.ssh/known_hosts
@@ -128,6 +128,29 @@ Install Python 3 with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
 ```
+
+## Set up ssh to not ask for a password
+
+1) Run `ssh-keygen` on the Mac, and hit return when asked for a password.
+This will generate a public and private keys stored in *~/.ssh/id_rsa* and *~/.ssh/id_rsa.pub*.
+
+```bash
+$ ssh-keygen
+```
+
+2) Add the contents of *~/.ssh/id_rsa.pub* on the Mac (using copy and paste) 
+into *~/.ssh/authorized_keys* on the Raspi.
+
+```bash
+$ sudo nano ~/.ssh/authorized_keys
+```
+3) Set the proper permissions for *~/.ssh/authorized_keys* with:
+```bash
+$ chmod 600 ~/.ssh/authorized_keys
+```
+
+You should now be able to ssh to the Raspi without a password.
+
 
 ## Install File sharing
 
