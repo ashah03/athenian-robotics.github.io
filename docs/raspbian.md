@@ -176,7 +176,7 @@ ECDSA key fingerprint is SHA256:g+fFiMPfdWH8Lwi6eKjAOWgYoTfDAPh00GnsLLE88fk.
 Are you sure you want to continue connecting (yes/no)? 
 ```
 
-The *UserKnownHostsFile /dev/null* will prevent ssh from writing to *.ssh/known_hosts*
+The *UserKnownHostsFile /dev/null* option will prevent ssh from writing to *.ssh/known_hosts*
 and then later failing when host keys change. In general, this is not a good security practice,
 but it is acceptable when working with local Raspis since you are on a private LAN and
 not likely dealing with malicious hosts.
