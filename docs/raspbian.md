@@ -151,6 +151,34 @@ $ chmod 600 ~/.ssh/authorized_keys
 
 You should now be able to ssh to the Raspi without a password.
 
+## Simplify ssh sessions
+
+To use `ssh raspi` instead of `ssh pi@raspi.local`, add this to your *~/.ssh/config* file:
+```bash
+Host raspi
+  HostName raspi.local
+  User pi
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+```
+
+Ensure that *~/.ssh/config* is visible only to you by setting the permissions appropriately with:
+```bash
+$ sudo chmod 400 ~/.ssh/config
+```
+
+The *StrictHostKeyChecking no* option will prevent authenticity messages from appearing during logins 
+and when doing git pushes with `git push raspi master`. 
+With the *StrictHostKeyChecking* option you will no longer see prompts like this:
+```The authenticity of host 'raspi.local (fe84::d84b:3c2:9ba9:afa7%en0)' can't be established.
+ECDSA key fingerprint is SHA256:g+fFiMPfdWH8Lwi6eKjAOWgYoTfDAPh00GnsLLE88fk.
+Are you sure you want to continue connecting (yes/no)? 
+```
+
+The *UserKnownHostsFile /dev/null* will prevent ssh from writing to *.ssh/known_hosts*
+and then later complaining when host keys change. In general, this is not a good security practice.
+But it is acceptable when working with local Raspis, since you are on a private LAN and
+not likely dealing with malicious hosts.
 
 ## Install File sharing
 
