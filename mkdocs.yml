@@ -9,6 +9,7 @@ pages:
 - Machine Setup:
   - OSX: osx-setup.md
   - Raspbian: raspbian.md
+  - BeagleBone: beaglebone.md
   - Windows: windows-setup.md
 - Python:
   - Admin: python-admin.md
