@@ -131,7 +131,7 @@ pi@raspberrypi:~ $ sudo apt-get install python3 python3-pip python3-dev
 
 ## Set up ssh to not ask for a password
 
-1) Run `ssh-keygen` on the Mac, and hit return when asked for a password.
+1) Run `ssh-keygen` on the Mac, and hit return when asked for file in which to save the key and the passphrase.
 This will generate a public and private keys stored in *~/.ssh/id_rsa* and *~/.ssh/id_rsa.pub*.
 
 ```bash
