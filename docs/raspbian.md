@@ -155,7 +155,7 @@ You should now be able to ssh to the Raspi without a password.
 
 To log into a Raspi with `ssh raspi` instead of `ssh pi@raspi.local`, add this to your *~/.ssh/config* file:
 ```bash
-Host raspi
+Host raspi, raspi.local
   HostName raspi.local
   User pi
   StrictHostKeyChecking no
