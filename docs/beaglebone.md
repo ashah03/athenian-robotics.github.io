@@ -17,12 +17,11 @@ $ xzcat
 ssh root@192.168.7.2
 
 
-
 debian:temppwd
 
 No ethernet initially
 
-http://dev.iachieved.it/iachievedit/expanding-your-beaglebone-microsd-filesystem/
+[expanding filesystem]()http://dev.iachieved.it/iachievedit/expanding-your-beaglebone-microsd-filesystem/)
 
 reboot with ethernet cable plugged in
 

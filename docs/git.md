@@ -39,7 +39,7 @@ You can toggle between the two versions by clicking on `Use HTTPS` and `Use SSH`
 If a Raspi does not have access to github.com (like on an FRC robot), then 
 creating a host repo will make it much easier to update code on the Raspi.
 
-* Create a bare repo and a directory for holding code on the Raspi for *myproject*:
+Create a bare repo and a directory for holding code on the Raspi for *myproject*:
 ```bash
 $ mkdir git
 $ cd git
@@ -48,7 +48,7 @@ $ git init --bare myproject.git
 $ mkdir myproject
 ```
 
-* Add a *post-receive* git hook that will trigger a `git pull`   
+Add a *post-receive* git hook that will trigger a `git pull`   
 into */home/pi/git/myproject* whenever a `git push` is done to */home/pi/git/myproject.git*. 
 File changes in */home/pi/git/myproject* will not be committable because that directory is
 not a cloned repo.
@@ -67,7 +67,7 @@ Output from `echo` will be sent back the user as part of the `git push` CLI resp
 $ chmod +x /home/pi/git/myproject.git/hooks/post-receive
 ```
 
-* On the development machine, clone *myproject* from github and add the Raspi *myproject.git* 
+On the development machine, clone *myproject* from github and add the Raspi *myproject.git* 
 directory as a remote repo with:
 ```bash
 $ cd ~/git
@@ -76,7 +76,7 @@ $ cd myproject
 $ git remote add raspi pi@raspberrypi.local:/home/pi/git/myproject.git
 ```
 
-* You can now push updates from your development machine to the Raspi with:
+You can now push updates from your development machine to the Raspi with:
 ```bash
 $ git push raspi master
 ```

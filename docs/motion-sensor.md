@@ -8,5 +8,6 @@ Sensor calibration is described [here](https://learn.adafruit.com/bno055-absolut
 
 Running BNO055 sketches requires two libraries to be installed with 
 the Arduino Library Manager (under menu items Sketch-->Include Library):
-* Adafruit BNO055
-* Adafruit Unified Sensor
+
+    Adafruit BNO055
+    Adafruit Unified Sensor

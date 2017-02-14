@@ -37,7 +37,7 @@ pages:
   - Unicorn Hat: unicorn.md
   - Display-O-Tron Hat: displayotron.md
   - Pan-Tilt Hat: pantilthat.md
-  - 9-DOF Sensor: motion_sensor.md
+  - 9-DOF Sensor: motion-sensor.md
   - roboRIO: roborio.md
 - Robots:
   - GoPiGo: gopigo.md
