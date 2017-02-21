@@ -29,6 +29,7 @@ pages:
   - Homebrew: homebrew.md
   - MQTT Broker: mqtt-broker.md
   - Plot.ly: plotly.md
+  - nginx: nginx.md
   - XQuartz: xquartz.md
   - MkDocs: mkdocs.md
 - Hardware Notes:
