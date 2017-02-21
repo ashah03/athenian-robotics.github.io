@@ -21,10 +21,22 @@ If you don't want/need a background service you can just run:
 $ nginx
 ```
 
+## Raspian Installation
+
+```bash
+$ sudo apt-get install nginx
+```
+
+The nginx docroot is: /usr/local/var/www
+
+The default port has been set in /etc/nginx/nginx.conf to 8080.
+
+nginx will load all *.conf* files in /etc/nginx/conf.d/.
+
 
 ## Configuration
 
-Example of */usr/local/etc/nginx/servers* config file:
+Example of nginx config file:
 ```
   server {
     listen 8001;
