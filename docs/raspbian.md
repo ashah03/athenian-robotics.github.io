@@ -46,6 +46,8 @@ Update the Raspbian distro to the latest and greatest bits with:
 pi@raspberrypi:~ $ sudo apt-get update
 pi@raspberrypi:~ $ sudo apt-get upgrade
 pi@raspberrypi:~ $ sudo apt-get dist-upgrade
+pi@raspberrypi:~ $ sudo apt-get autoremove
+pi@raspberrypi:~ $ sudo apt-get autoclean
 pi@raspberrypi:~ $ sudo reboot now
 ```
 
