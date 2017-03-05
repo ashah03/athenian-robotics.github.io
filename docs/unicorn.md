@@ -23,7 +23,15 @@ $ sudo pip3 install unicornhat
 
 If you get an error message *Can't open /dev/mem: Permission denied*, then run the program with `sudo`.
 
-If you get random LEDs blinking, make sure the [sound card is disabled](http://www.instructables.com/id/Disable-the-Built-in-Sound-Card-of-Raspberry-Pi/step2/Configure-Linux-to-NOT-load-Broadcoms-sound-chip/)
+If you get random LEDs blinking, make sure the sound is routed to HDMI by
+adding these two lines to /boot/config.txt and rebooting:
+
+```
+hdmi_force_hotplug=1
+hdmi_drive=2
+```
+
+
 
 <iframe src="https://player.vimeo.com/video/105482682" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
