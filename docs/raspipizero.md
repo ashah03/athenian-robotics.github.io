@@ -13,7 +13,7 @@ Detailed description is [here](https://www.thepolyglotdeveloper.com/2016/06/conn
 dtoverlay=dwc2
 ```
 
-4) Add this to *cmdline.txt* right after `rootwait`:
+4) Add this to *cmdline.txt* right after *rootwait*:
 ```
 modules-load=dwc2,g_ether
 ```
