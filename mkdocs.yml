@@ -41,6 +41,7 @@ pages:
   - Display-O-Tron Hat: displayotron.md
   - Pan-Tilt Hat: pantilthat.md
   - 9-DOF Sensor: motion-sensor.md
+  - VL53L0X Time of Flight Sensor: vl53l0x.md
   - roboRIO: roborio.md
 - Robots:
   - GoPiGo: gopigo.md
