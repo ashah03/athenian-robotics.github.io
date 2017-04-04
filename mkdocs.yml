@@ -26,6 +26,7 @@ pages:
   - Tkinter: tkinter.md
 - Software Notes:
   - Git: git.md
+  - Go: go-admin.md
   - PyCharm: pycharm.md
   - Homebrew: homebrew.md
   - MQTT Broker: mqtt-broker.md
