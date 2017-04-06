@@ -33,6 +33,7 @@ pages:
   - Plot.ly: plotly.md
   - nginx: nginx.md
   - XQuartz: xquartz.md
+  - ROS: ros.md
   - MkDocs: mkdocs.md
 - Hardware Notes:
   - SD Cards: sdcards.md
