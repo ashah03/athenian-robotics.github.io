@@ -65,3 +65,7 @@ You can check on the health of your `brew` installation with:
 ```bash
 $ brew doctor
 ```
+
+## Overview of OSX Applications
+
+[https://github.com/jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
