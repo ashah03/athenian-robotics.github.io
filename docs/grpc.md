@@ -1,5 +1,9 @@
 # gRPC Notes
 
+## Presentations
+
+[Enabling Googley Microservices with http2 and gRPC](https://www.slideshare.net/borisovalex/enabling-googley-microservices-with-http2-and-grpc)
+
 ## Installation for Python
 
 Detailed installation instructions are [here](http://www.grpc.io/docs/quickstart/python.html).
@@ -23,4 +27,3 @@ If the installation fails with `ImportError: No module named Cython`, install *C
 ```bash
 $ pip install Cython
 ```
-
