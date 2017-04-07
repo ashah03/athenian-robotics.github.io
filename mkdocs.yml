@@ -34,6 +34,8 @@ pages:
   - nginx: nginx.md
   - XQuartz: xquartz.md
   - ROS: ros.md
+  - Prometheus: prometheus.md
+  - Grafana: grafana.md
   - MkDocs: mkdocs.md
 - Hardware Notes:
   - SD Cards: sdcards.md
