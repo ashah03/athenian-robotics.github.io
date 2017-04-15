@@ -7,7 +7,7 @@ Download and install XQuartz from [here](https://www.xquartz.org).
 
 Type this on the Mac:
 ```bash
-$ xterm + raspberrypi.local
+$ xhost + 
 ```
 Add this line to ~/.profile or type it in the shell on the Raspi:
 ```
