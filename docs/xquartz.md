@@ -19,3 +19,7 @@ Verify the setup on the Raspi with:
 $ lxsession
 ```
 
+Note: If you are using VirtualBox, you will want to use the IP address
+of your mac, since its hostname may not be visible to the virtual instance.
+
+
