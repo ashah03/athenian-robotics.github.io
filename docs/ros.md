@@ -23,8 +23,20 @@ A good wiki is [here](http://wiki.ros.org/roscore).
 $ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 ```
 
+## ROS on Docker
+Run *roscore* with:
+```bash
+$ docker run -it --rm  -p11311:11311  ros roscore
+```
 
 ## ROS Commands
+
+### ROS Filesystem
+``` 
+roscd [locationname[/subdir]]
+rosls [locationname[/subdir]]
+rospack find [package_name]
+```
 
 ### ROS Nodes
 ``` 
@@ -63,6 +75,31 @@ rosparam get            get parameter
 rosparam load           load parameters from file
 rosparam dump           dump parameters to file
 rosparam delete         delete parameter
+```
+### ROS Console and Logging
+``` 
+rosrun rqt_console rqt_console
+rosrun rqt_logger_level rqt_logger_level
+```
+
+### ROS *msg* and *srv* Files
+``` 
+rosmsg show     Show message description
+rosmsg list     List all messages
+rosmsg md5      Display message md5sum
+rosmsg package  List messages in a package
+rosmsg packages List packages that contain messages
+
+rossrv show [service type]
+```
+
+### ROS Launch Files
+``` 
+roslaunch [package] [filename.launch]
+rqt
+rqt_console
+rqt_logger_level
+rqt_graph
 ```
 
 ## Athenian ROS Configuration
