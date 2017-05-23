@@ -4,6 +4,9 @@
 
 ### OSX
 
+[Python on OSX](https://medium.com/@briantorresgil/definitive-guide-to-python-on-mac-osx-65acd8d969d0)
+
+
 Installation details are 
 [here](http://docs.python-guide.org/en/latest/starting/install3/osx/).
 

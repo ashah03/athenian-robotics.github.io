@@ -7,6 +7,10 @@
 ## Cloud REPLs
 * [Jupyter](https://try.jupyter.org)  (New->Terminal)
 
+## Libraries
+* [CLI Python Tools](https://opensource.com/article/17/5/4-practical-python-libraries)
+
+
 ## Courses
 * [Google Python Course](https://developers.google.com/edu/python/)
 * [Interactive Python Tutorial](https://www.learnpython.org)
