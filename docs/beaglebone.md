@@ -17,7 +17,7 @@ $ xzcat
 ssh root@192.168.7.2
 
 
-debian:temppwd
+Initial username/password is: debian:temppwd
 
 No ethernet initially
 

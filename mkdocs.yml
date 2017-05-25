@@ -44,6 +44,7 @@ pages:
   - MkDocs: mkdocs.md
 - Hardware Notes:
   - SD Cards: sdcards.md
+  - Arduino: arduino.md
   - Metro Mini: metro-mini.md
   - Blinkt: blinkt.md
   - Unicorn Hat: unicorn.md
