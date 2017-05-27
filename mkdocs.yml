@@ -16,6 +16,7 @@ pages:
   - Links: python-links.md
   - Tutorials: python-tutorials.md
   - REPL 1: repl1.md
+  - pypy: pypy.md
 - Python Packages:
   - OpenCV: opencv.md
   - imutils: imutils.md
