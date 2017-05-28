@@ -100,7 +100,8 @@ rqt_graph
 
 ### Examples
 
-When running `rosrun rospy_tutorials talker` listen to the messages with:
+When running `rosrun rospy_tutorials talker` and
+`rosrun rospy_tutorials talker`, monitor the messages with:
 `rostopic echo chatter`.
 
 ## Athenian ROS Configuration
