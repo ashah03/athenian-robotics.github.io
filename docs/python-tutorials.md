@@ -1,6 +1,8 @@
 # Python Tutorials
 
 
+* [Python Tutor] (http://www.pythontutor.com)
+
 * [Python Programming Basics](https://dzone.com/articles/python-programming-basics-with-examples)
 
 * [Google Python Tutorial](https://developers.google.com/edu/python/)
