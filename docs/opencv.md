@@ -33,6 +33,10 @@ Detailed instructions are
 [here](http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/).
 Make sure to use version `3.2.0` instead of `3.1.0`.
 
+### Windows
+
+Detailed instructions are [here](http://www.learnopencv.com/install-opencv3-on-windows/)
+
 ## Displaying Raspi OpenCV camera images to a Mac
 
 1) Set **DISPLAY** to use the OSX machine (in this case *my-mac.local*). 
