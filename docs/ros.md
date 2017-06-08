@@ -24,13 +24,20 @@ Run *roscore* with:
 $ docker run -it --rm  -p11311:11311  ros roscore
 ```
 
+## ROS on Raspbian
+
+Instructions for installing Kinetic on Raspbian are [here](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi)
+
 ## ROS Commands
 
-### ROS Filesystem
+### ROS Utilities
 ``` 
-roscd [locationname[/subdir]]
-rosls [locationname[/subdir]]
-rospack find [package_name]
+roslaunch [package] [filename.launch]
+rqt
+rqt_graph
+rqt_console
+rqt_logger_level
+rqt_plot
 ```
 
 ### ROS Nodes
@@ -43,38 +50,31 @@ rosnode ping [node_name]
 
 ### ROS Topics
 ``` 
-rostopic bw     display bandwidth used by topic
-rostopic echo   print messages to screen
-rostopic hz     display publishing rate of topic    
-rostopic list   print information about active topics
-rostopic pub    publish data to topic
-rostopic type   print topic type
-rosrun rqt_graph rqt_graph
-rosrun rqt_plot rqt_plot
+rostopic list              print information about active topics
+rostopic hz topic_name     display publishing rate of topic    
+rostopic bw topic_name     display bandwidth used by topic
+rostopic pub topic_name    publish data to topic
+rostopic echo topic_name   print messages to screen
+rostopic type topic_name   print topic type
 ```
 
 ### ROS Services
 ```
-rosservice list         print information about active services
-rosservice call         call the service with the provided args
-rosservice type         print service type
-rosservice find         find services by service type
-rosservice uri          print service ROSRPC uri
+rosservice list                print information about active services
+rosservice call service_name   call the service with the provided args
+rosservice type service_name   print service type
+rosservice find service_name   find services by service type
+rosservice uri service_name    print service ROSRPC uri
 ```
 
 ### ROS Parameters
 ```
-rosparam list           list parameter names
-rosparam set            set parameter
-rosparam get            get parameter
-rosparam load           load parameters from file
-rosparam dump           dump parameters to file
-rosparam delete         delete parameter
-```
-### ROS Console and Logging
-``` 
-rosrun rqt_console rqt_console
-rosrun rqt_logger_level rqt_logger_level
+rosparam list                  list parameter names
+rosparam set param_name value  set parameter
+rosparam get param_name        get parameter
+rosparam load file_name        load parameters from file
+rosparam dump file_name        dump parameters to file
+rosparam delete param_name     delete parameter
 ```
 
 ### ROS *msg* and *srv* Files
@@ -88,20 +88,18 @@ rosmsg packages List packages that contain messages
 rossrv show [service type]
 ```
 
-### ROS Launch Files
+### ROS Filesystem
 ``` 
-roslaunch [package] [filename.launch]
-rqt
-rqt_console
-rqt_logger_level
-rqt_graph
+roscd [locationname[/subdir]]
+rosls [locationname[/subdir]]
+rospack find [package_name]
 ```
 
 
 ### Examples
 
 When running `rosrun rospy_tutorials talker` and
-`rosrun rospy_tutorials talker`, monitor the messages with:
+`rosrun rospy_tutorials listener`, monitor the messages with:
 `rostopic echo chatter`.
 
 ## Athenian ROS Configuration
