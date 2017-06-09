@@ -1,14 +1,28 @@
 # ROS Notes
 
-Kinetic OSX install notes are [here](http://wiki.ros.org/kinetic/Installation/OSX/Homebrew/Source) (Do not use).
+## ROS on Raspi
+
+Use Ubuntu MATE, not Raspbian.
+
+Download Ubuntu MATE 16.04.2 from [here](https://ubuntu-mate.org/download/)
+
+Instructions for installing Kinetic on Ubuntu MATE are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+
+## ROS on Docker
+Run *roscore* with:
+```bash
+$ docker run -it --rm  -p11311:11311  ros roscore
+```
+
+## ROS on OSX (Do not use)
+
+Kinetic OSX install notes are [here](http://wiki.ros.org/kinetic/Installation/OSX/Homebrew/Source).
 
 If you encounter a `ImportError: No module named _markerlib` error, fix it with:
 ```bash
 $ easy_install distribute
 $ pip install --upgrade distribute
 ```
-
-Ubuntu Kinetic Raspi install notes are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu).
 
 A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 
@@ -18,26 +32,19 @@ A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 $ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 ```
 
-## ROS on Docker
-Run *roscore* with:
-```bash
-$ docker run -it --rm  -p11311:11311  ros roscore
-```
 
-## ROS on Raspbian
-
-Instructions for installing Kinetic on Raspbian are [here](http://wiki.ros.org/ROSberryPi/Installing%20ROS%20Kinetic%20on%20the%20Raspberry%20Pi)
 
 ## ROS Commands
 
 ### ROS Utilities
 ``` 
-roslaunch [package] [filename.launch]
 rqt
 rqt_graph
 rqt_console
 rqt_logger_level
 rqt_plot
+
+roslaunch [package] [filename.launch]
 ```
 
 ### ROS Nodes
