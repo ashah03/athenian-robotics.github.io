@@ -39,7 +39,7 @@ You can toggle between the two versions by clicking on `Use HTTPS` and `Use SSH`
 If a Raspi does not have access to github.com (like on an FRC robot), then 
 creating a host repo will make it much easier to update code on the Raspi.
 
-Create a bare repo and a directory for holding code on the Raspi for *myproject*:
+Create a bare repo and a directory for holding code on the Raspi for *myproject* :
 ```bash
 $ mkdir git
 $ cd git

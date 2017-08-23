@@ -24,7 +24,7 @@ This will create a **~/.plotly/.credentials** file.
 so create some streaming API tokens
 [here](https://plot.ly/settings/api). You should create 3 to start.
 
-4) Manually add the newly created streaming API tokens to **~/.plotly/.credentials**: 
+4) Manually add the newly created streaming API tokens to **~/.plotly/.credentials** : 
 ```
 {
     "username": "YourName",

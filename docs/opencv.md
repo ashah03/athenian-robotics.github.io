@@ -27,6 +27,9 @@ Warning: As of OpenCV 3.2.0, the --with-python3 option does not seem to work. Un
 addressed, use Python 2.7 with OpenCV 3.
 </aside>
 
+### Ubuntu
+
+Instructions for installing OpenCV 3 on Ubuntu are [here](http://www.learnopencv.com/install-opencv3-on-ubuntu/).
 ### Raspbian
 
 Detailed instructions are 

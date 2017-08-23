@@ -1,8 +1,41 @@
 # Ubuntu Notes
 
+## Set Up
+
+Ubuntu requires you to initially login with a keyboard and monitor to setup the
+system.
+
+Once logged in, you can:
+1) assign the machine a name via the login prompt
+2) enable SSH via `raspi-config`
+3) expand the filesystem via `raspi-config`
+4) turn off GUI on init via `raspi-config`
+
+## Enable wifi
+
+1) Add this to */etc/network/interfaces* :
+```
+allow-hotplug wlan0
+iface wlan0 inet manual
+    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+```
+
+2) Scan for available networks with:
+```bash
+$ sudo iwlist wlan0 scan
+```
+
+3) Add the desired SID to */etc/wpa_supplicant/wpa_supplicant.conf* :
+```
+network={
+    ssid="your_network_ssid_here"
+    psk="your_wifi_password"
+}
+
+
 ## Networking
 
-To determine the IP addressof the Ubunutu instance, use:
+To determine the IP address of the Ubunutu instance, use:
 
 ```bash
 $ ifconfig -a | grep addr

@@ -13,7 +13,7 @@ Detailed description is [here](https://www.thepolyglotdeveloper.com/2016/06/conn
 dtoverlay=dwc2
 ```
 
-4) Add this to *cmdline.txt* right after *rootwait*:
+4) Add this to *cmdline.txt* right after *rootwait* :
 ```
 modules-load=dwc2,g_ether
 ```
@@ -40,7 +40,7 @@ Detailed description is [here](https://www.thepolyglotdeveloper.com/2016/02/use-
 $ sudo iwlist wlan0 scan
 ```
 
-2) Add the desired SID to */etc/wpa_supplicant/wpa_supplicant.conf*:
+2) Add the desired SID to */etc/wpa_supplicant/wpa_supplicant.conf* :
 ```
 network={
     ssid="your_network_ssid_here"
