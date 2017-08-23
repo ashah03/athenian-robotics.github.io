@@ -42,7 +42,7 @@ $ ifconfig -a | grep addr
 ```
 
 Using ssh to connect to Ubuntu is much better than using the Ubuntu console
-because OSX Terminal support s copy and paste.
+because OSX Terminal supports copy and paste.
 
 Download Ubuntu MATE 16.04.2 LTS for Raspberry Pi 2 and 3 systems from [here](https://ubuntu-mate.org/download/)
 
