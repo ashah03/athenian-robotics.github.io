@@ -16,8 +16,8 @@ Once logged in, you can:
 1) Add this to */etc/network/interfaces* :
 ```
 allow-hotplug wlan0
-iface wlan0 inet manual
-    wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 
 2) Scan for available networks with:
@@ -31,6 +31,7 @@ network={
     ssid="your_network_ssid_here"
     psk="your_wifi_password"
 }
+```
 
 
 ## Networking
