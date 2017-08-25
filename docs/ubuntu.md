@@ -52,4 +52,6 @@ Open the downloaded file with [Keka](http://www.kekaosx.com/en/)
 Run `sudo raspi-config` to expand the filesystem.
 
 
+## Installing on a Mac
 
+Good video: https://www.youtube.com/watch?v=IQIaDO9nR6Y
