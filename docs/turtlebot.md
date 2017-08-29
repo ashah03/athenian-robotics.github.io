@@ -11,3 +11,5 @@ After downloading the Ubuntu distro, convert it from a *.img.xz* file to a *.img
 $ brew install xz
 $ xz -d file-to-extract.xz
 ```
+
+The Turtlebot3 Wiki is [here](http://turtlebot3.robotis.com)

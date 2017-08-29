@@ -36,6 +36,19 @@ $ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 
 ## ROS Commands
 
+### Build packages in workspace
+
+```bash
+cd ~/catkin_ws
+catkin_make
+```
+
+### ROS Setup Debugging
+``` 
+rqtwtf
+roswtf yourfile.launch
+```
+
 ### ROS Utilities
 ``` 
 rqt

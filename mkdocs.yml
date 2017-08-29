@@ -35,9 +35,9 @@ pages:
   - Plot.ly: plotly.md
   - nginx: nginx.md
   - XQuartz: xquartz.md
-  - ROS: ros.md
-  - TurtleBot: turtlebot.md
   - Ubuntu: ubuntu.md
+  - ROS: ros.md
+  - Gazebo: gazebo.md
   - Prometheus: prometheus.md
   - AI Projects: ai-projects.md
   - Kotlin: kotlin.md
@@ -55,6 +55,7 @@ pages:
   - VL53L0X Time of Flight Sensor: vl53l0x.md
   - roboRIO: roborio.md
   - Nvidia Jetson TX2: jetsontx2.md
+  - TurtleBot: turtlebot.md
   - Intel Euclid: euclid.md
 - Robots:
   - GoPiGo: gopigo.md
