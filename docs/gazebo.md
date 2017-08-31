@@ -8,4 +8,5 @@ Install gazebo8 with ([details](http://gazebosim.org/tutorials?tut=install_ubunt
 
 ```bash
 $ curl -ssL http://get.gazebosim.org | sh
+$ gazebo
 ```

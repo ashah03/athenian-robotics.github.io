@@ -11,9 +11,7 @@ To enable wifi on a Mac: http://sourcedigit.com/19519-how-to-enable-wifi-in-ubun
 After installing Desktop, click on **Additional Drivers** in **Software & Updates**
 and add machine-specific drivers.
 
-Under the VirtualBox Networking options:
-1) Set "Attached to:" to "Bridged Adapter"
-2) Under Advanced, set "Adapter Type:" to :"PCnet-FAST III"
+Under the VirtualBox Networking options, set "Attached to:" to "Bridged Adapter"
 
 To get hostname to reference network address rather than localhost, remove
 host name from `/etc/hosts/`

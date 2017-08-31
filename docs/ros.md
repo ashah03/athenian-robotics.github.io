@@ -19,6 +19,21 @@ Use the *ros-kinetic-desktop* package instead and install gazebo8 seperately.
 
 Install *ros-kinetic-desktop* in order to get rospy_tutorials
 
+Add ROS support for Gazebo with: 
+```bash
+$ sudo apt-get install ros-kinetic-gazebo8-ros-pkgs
+```
+
+Add TurtleBot3 support with: 
+```bash
+$ sudo apt-get install ros-kinetic-turtlebot3
+```
+
+Add TurtleBot3 Fake support with: 
+```bash
+$ sudo apt-get install ros-kinetic-turtlebot3-fake
+```
+
 ## ROS on Raspi
 
 Use Ubuntu MATE, not Raspbian.
@@ -74,6 +89,7 @@ Examine the graph amd messages:
 ```bash
 $ rqt_graph
 $ rqt_console
+$ rqt   # (and select topic monitor)
 ```
 
 
@@ -156,6 +172,40 @@ As described [here](https://answers.ros.org/question/57213/how-i-completely-remo
 ```bash
 $ sudo apt-get remove ros-*
 ```
+
+## ROS Demos
+
+Launch keyboard control with: 
+```bash
+$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
+```
+
+Launch simulated turtlebot in RViz with: 
+```bash
+$ roslaunch turtlebot3_fake turtlebot3_fake.launch
+```
+
+Launch simulated turtlebot in gazebo with: 
+```bash
+$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
+```
+
+Launch simulated turtlebot with obstacles in gazebo with: 
+```bash
+$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
+```
+
+Visualize the simulation lidar with: 
+```bash
+$ roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
+``` 
+
+Launch automatic navigation with:
+```bash
+$ roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
+```
+
+
 
 
 
