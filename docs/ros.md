@@ -1,12 +1,30 @@
 # ROS Notes
 
+A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
+
+Indicate where *roscore* is running iwith.
+
+```bash
+$ export ROS_MASTER_URI=http://roscore_machine_name:11311/
+```
+
+Do not run ROS on OSX.
+
+## ROS on Ubuntu
+
+Installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
+
+If you want gazebo8, do not install the *ros-kinetic-desktop-full* package because it includes gazebo7.
+Use the *ros-kinetic-desktop* package instead and install gazebo8 seperately.
+
+Install *ros-kinetic-desktop* in order to get rospy_tutorials
+
 ## ROS on Raspi
 
 Use Ubuntu MATE, not Raspbian.
 
 Download Ubuntu MATE 16.04.2 from [here](https://ubuntu-mate.org/download/)
 
-Instructions for installing Kinetic on Ubuntu MATE are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
 
 ## ROS on Docker
 Run *roscore* with:
@@ -14,34 +32,50 @@ Run *roscore* with:
 $ docker run -it --rm  -p11311:11311  ros roscore
 ```
 
-## ROS on OSX (Do not use)
-
-Kinetic OSX install notes are [here](http://wiki.ros.org/kinetic/Installation/OSX/Homebrew/Source).
-
-If you encounter a `ImportError: No module named _markerlib` error, fix it with:
-```bash
-$ easy_install distribute
-$ pip install --upgrade distribute
-```
-
-A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
-
-* The env var that is used to determine where *roscore* is running is **ROS_MASTER_URI**.
-
-```bash
-$ export ROS_MASTER_URI=http://roscore_machine_name:11311/
-```
-
-
-
 ## ROS Commands
 
 ### Build packages in workspace
 
 ```bash
-cd ~/catkin_ws
-catkin_make
+$ cd ~/catkin_ws
+$ catkin_make
 ```
+
+### Create packages
+
+This creates `~/catkin_ws/src/new_package_name` and initialize it with
+a `/src` directory and the files: `CMakeLists.txt` and `package.xml`.
+
+```bash
+$ cd ~/catkin_ws/src
+$ catkin_create_pkg new_package_name rospy  [dependent packages]
+```
+
+### Running a program in a package
+
+```bash
+$ rosrun PACKAGE_NAME PROGRAM_NAME [ARGS]
+```
+
+### ROS rospy_tutorials
+
+The *rospy_tutorials* are installed with the ros-kinetic-desktop package.
+
+Start a talker and a listener:
+
+```bash
+$ rosrun rospy_tutorials talker
+$ rosrun rospy_tutorials listener
+$ rostopic echo chatter
+```
+
+Examine the graph amd messages:
+
+```bash
+$ rqt_graph
+$ rqt_console
+```
+
 
 ### ROS Setup Debugging
 ``` 
@@ -115,16 +149,13 @@ rosls [locationname[/subdir]]
 rospack find [package_name]
 ```
 
+### ROS uninstall
 
-### Examples
+As described [here](https://answers.ros.org/question/57213/how-i-completely-remove-all-ros-from-my-system/):
 
-When running `rosrun rospy_tutorials talker` and
-`rosrun rospy_tutorials listener`, monitor the messages with:
-`rostopic echo chatter`.
-
-
-A Gazebo description is [here](http://www.ros.org/news/2017/05/steffi-paepcke-and-louise-poubel-osrf-whats-new-in-gazebo-upgrading-your-simulation-user-experience.html)
-
+```bash
+$ sudo apt-get remove ros-*
+```
 
 
 

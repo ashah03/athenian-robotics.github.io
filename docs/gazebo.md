@@ -1,9 +1,11 @@
 # Gazebo Notes
 
+A Gazebo description is [here](http://www.ros.org/news/2017/05/steffi-paepcke-and-louise-poubel-osrf-whats-new-in-gazebo-upgrading-your-simulation-user-experience.html)
+
 ## Installation
 
-If you install `gazebo8` you need to first install the appropriate drivers:
+Install gazebo8 with ([details](http://gazebosim.org/tutorials?tut=install_ubuntu)):
 
 ```bash
-$ sudo apt-get install ros-kinetic-gazebo8-ros-pkgs ros-kinetic-gazebo8-ros-control
+$ curl -ssL http://get.gazebosim.org | sh
 ```
