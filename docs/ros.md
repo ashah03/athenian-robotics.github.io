@@ -2,15 +2,6 @@
 
 A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 
-## Admin
-Indicate where *roscore* is running with.
-
-```bash
-$ export ROS_MASTER_URI=http://roscore_machine_name:11311/
-```
-
-## Demos
-
 Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos)
 
 ## ROS on Ubuntu
@@ -48,6 +39,13 @@ Download Ubuntu MATE 16.04.2 from [here](https://ubuntu-mate.org/download/)
 Run *roscore* with:
 ```bash
 $ docker run -it --rm  -p11311:11311  ros roscore
+```
+
+## Admin
+Indicate where *roscore* is running with:
+
+```bash
+$ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 ```
 
 ## ROS Commands
