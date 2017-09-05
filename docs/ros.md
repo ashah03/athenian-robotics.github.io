@@ -2,15 +2,16 @@
 
 A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 
-Indicate where *roscore* is running iwith.
+## Admin
+Indicate where *roscore* is running with.
 
 ```bash
 $ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 ```
 
-Do not run ROS on OSX.
+## Demos
 
-Some ROS demos are [here]()
+Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos)
 
 ## ROS on Ubuntu
 
