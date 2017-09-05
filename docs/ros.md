@@ -10,6 +10,8 @@ $ export ROS_MASTER_URI=http://roscore_machine_name:11311/
 
 Do not run ROS on OSX.
 
+Some ROS demos are [here]()
+
 ## ROS on Ubuntu
 
 Installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
@@ -172,39 +174,6 @@ As described [here](https://answers.ros.org/question/57213/how-i-completely-remo
 ```bash
 $ sudo apt-get remove ros-*
 ```
-
-## ROS Demos
-
-Launch keyboard control with: 
-```bash
-$ roslaunch turtlebot3_teleop turtlebot3_teleop_key.launch
-```
-
-Launch simulated turtlebot in RViz with: 
-```bash
-$ roslaunch turtlebot3_fake turtlebot3_fake.launch
-```
-
-Launch simulated turtlebot in gazebo with: 
-```bash
-$ roslaunch turtlebot3_gazebo turtlebot3_empty_world.launch
-```
-
-Launch simulated turtlebot with obstacles in gazebo with: 
-```bash
-$ roslaunch turtlebot3_gazebo turtlebot3_world.launch
-```
-
-Visualize the simulation lidar with: 
-```bash
-$ roslaunch turtlebot3_gazebo turtlebot3_gazebo_rviz.launch
-``` 
-
-Launch automatic navigation with:
-```bash
-$ roslaunch turtlebot3_gazebo turtlebot3_simulation.launch
-```
-
 
 
 

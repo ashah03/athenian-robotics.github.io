@@ -37,6 +37,7 @@ pages:
   - XQuartz: xquartz.md
   - Ubuntu: ubuntu.md
   - ROS: ros.md
+  - ROS Serial: rosserial.md
   - Gazebo: gazebo.md
   - Prometheus: prometheus.md
   - AI Projects: ai-projects.md
