@@ -2,7 +2,11 @@
 
 A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 
-Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos)
+Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos).
+
+## ROS IDE
+
+The RoboWare IDE is [here](http://www.roboware.me/#/)
 
 ## ROS on Ubuntu
 
@@ -41,7 +45,7 @@ Run *roscore* with:
 $ docker run -it --rm  -p11311:11311  ros roscore
 ```
 
-## Admin
+## Shell Setup
 Indicate where *roscore* is running with:
 
 ```bash

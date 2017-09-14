@@ -15,13 +15,13 @@ To modify the interpreter path in PyCharm:
 
 2) Double click on `Project:your-project-name`
 
-3) Click on `Project Interpreter`  
+3) Select the `Project Interpreter`  
 
-4) Click on `...` next to the "Project Interpreter" value
+4) Click on icon to the right of the "Project Interpreter" value
 
 5) Click on `More...`
  
-6) Click on the interpreter you are using 
+6) Select the interpreter you are using 
 
 7) Click on the tree symbol 
 <img title="Show paths for the selected interpreter" src="https://www.jetbrains.com/help/img/idea/2016.3/icon_show_paths.png" width="21" height="19">
