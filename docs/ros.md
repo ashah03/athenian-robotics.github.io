@@ -178,6 +178,19 @@ As described [here](https://answers.ros.org/question/57213/how-i-completely-remo
 $ sudo apt-get remove ros-*
 ```
 
+### Video Server
+
+Details of the *web_video_server* package are [here](web_video_server).
+
+Install *web_video_server* the with:
+```bash
+$ sudo apt-get install ros-kinetic-web-video-server
+```
+
+Run *web_video_server* with:
+```bash
+$ rosrun web_video_server web_video_server
+```
 
 
 
