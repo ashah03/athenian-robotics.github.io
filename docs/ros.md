@@ -8,6 +8,19 @@ Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos).
 
 The RoboWare IDE is [here](http://www.roboware.me/#/)
 
+## ROS environment variables
+
+The *~/.bashrc* file should contain:
+
+```bash
+source /opt/ros/kinetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+
+export TURTLEBOT3_MODEL=burger
+export ROS_HOSTNAME=machine1.local
+export ROS_MASTER_URI=http://machine2:11311
+```
+
 ## ROS on Ubuntu
 
 Installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
@@ -16,16 +29,6 @@ If you want gazebo8, do not install the *ros-kinetic-desktop-full* package becau
 Use the *ros-kinetic-desktop* package instead and install gazebo8 seperately.
 
 Install *ros-kinetic-desktop* in order to get rospy_tutorials.
-
-Add TurtleBot3 support with: 
-```bash
-$ sudo apt-get install ros-kinetic-turtlebot3
-```
-
-Add TurtleBot3 Fake support with: 
-```bash
-$ sudo apt-get install ros-kinetic-turtlebot3-fake
-```
 
 ## ROS on Raspi
 
