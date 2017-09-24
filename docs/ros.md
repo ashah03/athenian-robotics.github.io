@@ -15,12 +15,7 @@ Installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ub
 If you want gazebo8, do not install the *ros-kinetic-desktop-full* package because it includes gazebo7.
 Use the *ros-kinetic-desktop* package instead and install gazebo8 seperately.
 
-Install *ros-kinetic-desktop* in order to get rospy_tutorials
-
-Add ROS support for Gazebo with: 
-```bash
-$ sudo apt-get install ros-kinetic-gazebo8-ros-pkgs
-```
+Install *ros-kinetic-desktop* in order to get rospy_tutorials.
 
 Add TurtleBot3 support with: 
 ```bash
