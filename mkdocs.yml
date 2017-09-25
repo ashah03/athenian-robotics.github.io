@@ -36,6 +36,7 @@ pages:
   - nginx: nginx.md
   - XQuartz: xquartz.md
   - Ubuntu: ubuntu.md
+  - APT: apt.md
   - ROS: ros.md
   - ROS Serial: rosserial.md
   - Gazebo: gazebo.md

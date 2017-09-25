@@ -36,7 +36,13 @@ Use Ubuntu MATE, not Raspbian.
 
 Download Ubuntu MATE 16.04.2 from [here](https://ubuntu-mate.org/download/)
 
+## ROS on Jetson TX2
 
+If `sudo rosdep init` returns an error about a website being down, fix it with:
+```bash
+$ sudo c_rehash /etc/ss/certs
+```
+ 
 ## ROS on Docker
 Run *roscore* with:
 ```bash
