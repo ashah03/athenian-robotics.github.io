@@ -46,6 +46,8 @@ pages:
   - Grafana: grafana.md
   - MkDocs: mkdocs.md
 - Hardware Notes:
+  - Nvidia Jetson TX2: jetsontx2.md
+  - Logitech Joystick: joystick.md
   - SD Cards: sdcards.md
   - Arduino: arduino.md
   - Metro Mini: metro-mini.md
@@ -56,10 +58,9 @@ pages:
   - 9-DOF Sensor: motion-sensor.md
   - VL53L0X Time of Flight Sensor: vl53l0x.md
   - roboRIO: roborio.md
-  - Nvidia Jetson TX2: jetsontx2.md
-  - TurtleBot: turtlebot.md
   - Intel Euclid: euclid.md
 - Robots:
+  - TurtleBot3: turtlebot3.md
   - GoPiGo: gopigo.md
   - EV3:
     - Admin: ev3-admin.md

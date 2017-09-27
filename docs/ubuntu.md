@@ -59,6 +59,27 @@ network={
 }
 ```
 
+Install Chromium with:
+```bash
+$ sudo apt-get install chromium-browser
+```
+
+## Ubuntu Mate Wifi Fixes
+
+If the wifi choices are stippled, try this:
+* Run: *sudo /etc/init.d/networking restart*
+* Edit file **/etc/NetworkManager/NetworkManager.conf**
+* Change managed=false to managed=true
+* Run: *sudo killall NetworkManager*
+
+To manage wifi connection via a config file, add this to **/etc/network/interfaces**:
+```
+allow-hotplu wlan0
+iface wlan0 inet dhcp
+wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
+```
+If a device is not managed in **/etc/network/interfaces**, then it will be avialable via the GUI.
+
 
 ## General installation
 

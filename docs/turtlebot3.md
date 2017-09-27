@@ -1,4 +1,4 @@
-# Notes on TurtleBot
+# TurtleBot3
 
 The Turtlebot3 Wiki is [here](http://turtlebot3.robotis.com)
 
