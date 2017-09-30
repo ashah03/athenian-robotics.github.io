@@ -1,6 +1,6 @@
 # Logitech Joystick Extreme 3D
 
-Install joystick viewer with:
+Install a joystick viewer with:
 ```bash
 $ sudo apt-get install jstest-gtk
 $ jstest-gtk

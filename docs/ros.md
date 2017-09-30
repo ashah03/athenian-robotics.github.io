@@ -125,6 +125,7 @@ rosnode list
 rosnode info
 rosrun [package_name] [node_name]
 rosnode ping [node_name]
+rosnode cleanup
 ```
 
 ### ROS Topics
