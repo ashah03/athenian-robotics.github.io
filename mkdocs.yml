@@ -24,14 +24,16 @@ pages:
   - XQuartz: xquartz.md
   - Ubuntu: ubuntu.md
   - APT: apt.md
-  - ROS: ros.md
-  - ROS Serial: rosserial.md
   - Gazebo: gazebo.md
   - Prometheus: prometheus.md
   - AI Projects: ai-projects.md
   - Kotlin: kotlin.md
   - Grafana: grafana.md
   - MkDocs: mkdocs.md
+- ROS
+  - Admin: ros-admin.md
+  - Commands: ros-commands.md
+  - ROS Serial: ros-serial.md
 - Hardware Notes:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md

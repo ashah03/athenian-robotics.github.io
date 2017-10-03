@@ -1,71 +1,13 @@
-# ROS Notes
+# ROS Commands
 
-A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
-
-Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos).
-
-## ROS IDE
-
-The RoboWare IDE is [here](http://www.roboware.me/#/)
-
-## ROS environment variables
-
-The *~/.bashrc* file should contain:
-
-```bash
-source /opt/ros/kinetic/setup.bash
-source ~/catkin_ws/devel/setup.bash
-
-export TURTLEBOT3_MODEL=burger
-export ROS_HOSTNAME=machine1.local
-export ROS_MASTER_URI=http://machine2:11311
-```
-
-## ROS on Ubuntu
-
-Installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu)
-
-If you want gazebo8, do not install the *ros-kinetic-desktop-full* package because it includes gazebo7.
-Use the *ros-kinetic-desktop* package instead and install gazebo8 seperately.
-
-Install *ros-kinetic-desktop* in order to get rospy_tutorials.
-
-## ROS on Raspi
-
-Use Ubuntu MATE, not Raspbian.
-
-Download Ubuntu MATE 16.04.2 from [here](https://ubuntu-mate.org/download/)
-
-## ROS on Jetson TX2
-
-If `sudo rosdep init` returns an error about a website being down, fix it with:
-```bash
-$ sudo c_rehash /etc/ss/certs
-```
- 
-## ROS on Docker
-Run *roscore* with:
-```bash
-$ docker run -it --rm  -p11311:11311  ros roscore
-```
-
-## Shell Setup
-Indicate where *roscore* is running with:
-
-```bash
-$ export ROS_MASTER_URI=http://roscore_machine_name:11311/
-```
-
-## ROS Commands
-
-### Build packages in workspace
+## Build packages in workspace
 
 ```bash
 $ cd ~/catkin_ws
 $ catkin_make
 ```
 
-### Create packages
+## Create packages
 
 This creates `~/catkin_ws/src/new_package_name` and initialize it with
 a `/src` directory and the files: `CMakeLists.txt` and `package.xml`.
@@ -75,13 +17,13 @@ $ cd ~/catkin_ws/src
 $ catkin_create_pkg new_package_name rospy  [dependent packages]
 ```
 
-### Running a program in a package
+## Running a program in a package
 
 ```bash
 $ rosrun PACKAGE_NAME PROGRAM_NAME [ARGS]
 ```
 
-### ROS rospy_tutorials
+## ROS rospy_tutorials
 
 The *rospy_tutorials* are installed with the ros-kinetic-desktop package.
 
@@ -102,13 +44,13 @@ $ rqt   # (and select topic monitor)
 ```
 
 
-### ROS Setup Debugging
+## ROS Setup Debugging
 ``` 
 rqtwtf
 roswtf yourfile.launch
 ```
 
-### ROS Utilities
+## ROS Utilities
 ``` 
 rqt
 rqt_graph
@@ -119,7 +61,7 @@ rqt_plot
 roslaunch [package] [filename.launch]
 ```
 
-### ROS Nodes
+## ROS Nodes
 ``` 
 rosnode list
 rosnode info
@@ -128,7 +70,7 @@ rosnode ping [node_name]
 rosnode cleanup
 ```
 
-### ROS Topics
+## ROS Topics
 ``` 
 rostopic list              print information about active topics
 rostopic hz topic_name     display publishing rate of topic    
@@ -138,7 +80,7 @@ rostopic echo topic_name   print messages to screen
 rostopic type topic_name   print topic type
 ```
 
-### ROS Services
+## ROS Services
 ```
 rosservice list                print information about active services
 rosservice call service_name   call the service with the provided args
@@ -147,7 +89,7 @@ rosservice find service_name   find services by service type
 rosservice uri service_name    print service ROSRPC uri
 ```
 
-### ROS Parameters
+## ROS Parameters
 ```
 rosparam list                  list parameter names
 rosparam set param_name value  set parameter
@@ -157,7 +99,7 @@ rosparam dump file_name        dump parameters to file
 rosparam delete param_name     delete parameter
 ```
 
-### ROS *msg* and *srv* Files
+## ROS *msg* and *srv* Files
 ``` 
 rosmsg show     Show message description
 rosmsg list     List all messages
@@ -168,34 +110,10 @@ rosmsg packages List packages that contain messages
 rossrv show [service type]
 ```
 
-### ROS Filesystem
+## ROS Filesystem
 ``` 
 roscd [locationname[/subdir]]
 rosls [locationname[/subdir]]
 rospack find [package_name]
 ```
-
-### ROS uninstall
-
-As described [here](https://answers.ros.org/question/57213/how-i-completely-remove-all-ros-from-my-system/):
-
-```bash
-$ sudo apt-get remove ros-*
-```
-
-### Video Server
-
-Details of the *web_video_server* package are [here](web_video_server).
-
-Install *web_video_server* the with:
-```bash
-$ sudo apt-get install ros-kinetic-web-video-server
-```
-
-Run *web_video_server* with:
-```bash
-$ rosrun web_video_server web_video_server
-```
-
-
 
