@@ -7,8 +7,8 @@ pages:
 - Home: index.md
 - Github Repos: github-repos.md
 - ROS:
-  - ROS Admin: ros-admin.md
-  - ROS Commands: ros-commands.md
+  - Admin: ros-admin.md
+  - Commands: ros-commands.md
   - ROS Serial: ros-serial.md
 - Python:
   - Admin: python-admin.md

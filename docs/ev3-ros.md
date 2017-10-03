@@ -6,9 +6,9 @@
 
 * Connect the EV3 to the Internet
 
-* Connect to the EV3 via ssh with: `ssh robot@ev3dev` (password: maker)
+* Connect to the EV3 with: `ssh robot@ev3dev` (password: maker)
 
-Add these statements to the bottom of the `~/.bashrc`:
+Add these statements to the bottom of `~/.bashrc`:
 ```bash
 source ~/catkin_ws/devel/setup.bash
 export ROS_HOSTNAME=ev3dev
