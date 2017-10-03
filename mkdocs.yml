@@ -7,16 +7,15 @@ pages:
 - Home: index.md
 - Github Repos: github-repos.md
 - ROS:
-  - Admin: ros-admin.md
-  - Commands: ros-commands.md
+  - ROS Admin: ros-admin.md
+  - ROS Commands: ros-commands.md
   - ROS Serial: ros-serial.md
 - Python:
   - Admin: python-admin.md
   - Links: python-links.md
+  - Packages: python-packages.md
   - Tutorials: python-tutorials.md
   - REPL 1: repl1.md
-  - pypy: pypy.md
-  - Packages: python-packages.md
 - Software Notes:
   - Git: git.md
   - Go: go-admin.md
