@@ -6,26 +6,13 @@ site_author: Athenian Robotics Team
 pages:
 - Home: index.md
 - Github Repos: github-repos.md
-- Machine Setup:
-  - OSX: osx-setup.md
-  - Raspbian: raspbian.md
-  - Raspberry Pi Zero W: raspipizero.md
-  - Windows: windows-setup.md
 - Python:
   - Admin: python-admin.md
   - Links: python-links.md
   - Tutorials: python-tutorials.md
   - REPL 1: repl1.md
   - pypy: pypy.md
-- Python Packages:
-  - OpenCV: opencv.md
-  - imutils: imutils.md
-  - pyserial: pyserial.md
-  - numpy: numpy.md
-  - gRPC: grpc.md
-  - MQTT Client: mqtt-client.md
-  - pyFirmata: pyfirmata.md
-  - Tkinter: tkinter.md
+  - Packages: python-packages.md
 - Software Notes:
   - Git: git.md
   - Go: go-admin.md
@@ -59,6 +46,11 @@ pages:
   - VL53L0X Time of Flight Sensor: vl53l0x.md
   - roboRIO: roborio.md
   - Intel Euclid: euclid.md
+- Machine Setup:
+  - OSX: osx-setup.md
+  - Raspbian: raspbian.md
+  - Raspberry Pi Zero W: raspipizero.md
+  - Windows: windows-setup.md
 - Robots:
   - TurtleBot3: turtlebot3.md
   - GoPiGo: gopigo.md
