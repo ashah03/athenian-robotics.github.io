@@ -65,6 +65,7 @@ pages:
   - EV3:
     - Admin: ev3-admin.md
     - Python: ev3-python.md
+    - ROS: ev3-ros.md
 - Education:
   - Robots: education-robots.md
   - Software: education-software.md
