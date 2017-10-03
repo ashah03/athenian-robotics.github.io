@@ -6,6 +6,10 @@ site_author: Athenian Robotics Team
 pages:
 - Home: index.md
 - Github Repos: github-repos.md
+- ROS:
+  - Admin: ros-admin.md
+  - Commands: ros-commands.md
+  - ROS Serial: ros-serial.md
 - Python:
   - Admin: python-admin.md
   - Links: python-links.md
@@ -30,10 +34,6 @@ pages:
   - Kotlin: kotlin.md
   - Grafana: grafana.md
   - MkDocs: mkdocs.md
-- ROS
-  - Admin: ros-admin.md
-  - Commands: ros-commands.md
-  - ROS Serial: ros-serial.md
 - Hardware Notes:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
