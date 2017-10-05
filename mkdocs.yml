@@ -47,6 +47,7 @@ pages:
   - VL53L0X Time of Flight Sensor: vl53l0x.md
   - roboRIO: roborio.md
   - Intel Euclid: euclid.md
+  - Adafruit Circuit Playground: circuitplayground.md
 - Machine Setup:
   - OSX: osx-setup.md
   - Raspbian: raspbian.md
