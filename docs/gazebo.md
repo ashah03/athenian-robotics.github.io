@@ -2,7 +2,7 @@
 
 A Gazebo description is [here](http://www.ros.org/news/2017/05/steffi-paepcke-and-louise-poubel-osrf-whats-new-in-gazebo-upgrading-your-simulation-user-experience.html)
 
-## Installation
+## Gazebo8 Installation
 
 Install gazebo8 with ([details](http://gazebosim.org/tutorials?tut=install_ubuntu)):
 
@@ -11,7 +11,9 @@ $ curl -ssL http://get.gazebosim.org | sh
 $ sudo apt-get install ros-kinetic-gazebo8-ros
 ```
 
-Build gazebo from source with:
+## Gazebo7 Installation
+
+Build gazebo7 from source with:
 
 ```bash
 sudo apt-get remove '.*gazebo.*' '.*sdformat.*' '.*ignition-math.*' '.*ignition-msgs.*' '.*ignition-transport.*'

@@ -4,7 +4,7 @@
 
 Good video: https://www.youtube.com/watch?v=IQIaDO9nR6Y
 
-To enable wifi on a Mac: http://sourcedigit.com/19519-how-to-enable-wifi-in-ubuntu-16-04/
+[This](http://sourcedigit.com/19519-how-to-enable-wifi-in-ubuntu-16-04/) describes how to enable wifi on a Mac.
 
 ## Installing Desktop on Virtual Box
 
