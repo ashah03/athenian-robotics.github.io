@@ -2,7 +2,7 @@
 
 ## Install Raspian 
 
-### OSX
+### Using OSX
 
 * Download the [Raspbian distro](https://www.raspberrypi.org/downloads/raspbian/raspbian.md).
 
@@ -40,8 +40,8 @@ Choose "Expand Filesystem", tab to <Finish> and then reboot.
 pi@raspberrypi:~ $ sudo raspi-config
 ```
 
-## Update distro
-Update the Raspbian distro to the latest and greatest bits with:
+## Update Raspbia
+Update Raspbian to the latest and greatest bits with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get update
 pi@raspberrypi:~ $ sudo apt-get upgrade
@@ -95,23 +95,6 @@ pi@raspberrypi:~ $ sudo ifdown wlan0
 pi@raspberrypi:~ $ sudo ifup wlan0
 ```
  
-## Enable VNC
-
-Enable VNC with `raspi-config`. Choose the `Interfacing Options` and then 
-the `VNC` option. Tab to <Finish> and then reboot.
-
-Start the VNC server with:
-```bash
-pi@raspberrypi:~ $ vncserver :1 -geometry 1024x728 -depth 24
-```
-
-Use `-geometry 2048x1456` for a larger display.
-
-Download a *VNCViewer* app from 
-[here](https://www.realvnc.com/download/viewer/). 
-
-Start the *VNCViewer* app on the Mac and connect to the Raspi at `raspberrypi:1`.
-
 ## Enable a camera
 Enable a Pi camera with `raspi-config`. Select the `Interfacing Options` and then the `Camera` option.
 Tab to <Finish> and then reboot.
@@ -191,6 +174,24 @@ Enable file sharing with:
 ```bash
 pi@raspberrypi:~ $ sudo apt-get install netatalk
 ```
+
+## Enable VNC
+
+Enable VNC with `raspi-config`. Choose the `Interfacing Options` and then 
+the `VNC` option. Tab to <Finish> and then reboot.
+
+Start the VNC server with:
+```bash
+pi@raspberrypi:~ $ vncserver :1 -geometry 1024x728 -depth 24
+```
+
+Use `-geometry 2048x1456` for a larger display.
+
+Download a *VNCViewer* app from 
+[here](https://www.realvnc.com/download/viewer/). 
+
+Start the *VNCViewer* app on the Mac and connect to the Raspi at `raspberrypi:1`.
+
 
 ## Misc Raspbian Links
 

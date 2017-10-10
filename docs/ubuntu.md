@@ -95,3 +95,7 @@ Install MDNS (enabling hostname.local usage) with:
 $ sudo apt-get install avahi-daemon
 ```
 
+Install Chome with:
+```bash
+$ sudo apt install chromium-browser
+```

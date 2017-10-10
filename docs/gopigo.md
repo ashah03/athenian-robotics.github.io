@@ -85,7 +85,7 @@ pi@dex:~ $ sudo reboot now
 
 ### Update the OS
 
-Update the Linux distro with:
+Update the Linux bits with:
 ```bash
 pi@dex:~ $ sudo apt-get update
 pi@dex:~ $ sudo apt-get upgrade
