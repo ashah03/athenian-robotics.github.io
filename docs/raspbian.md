@@ -1,4 +1,4 @@
-# Raspbian Admin
+# Raspbian Notes
 
 See general Linux admin notes [here](./linux.md).
 

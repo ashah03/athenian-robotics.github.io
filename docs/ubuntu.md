@@ -24,13 +24,11 @@ $ brew install xz
 $ xz -d file-to-extract.xz
 ```
 
-## Raspi Notes
+## Raspberry Pi Notes
 
 Download Ubuntu MATE 16.04.2 LTS for Raspberry Pi 2 and 3 systems from [here](https://ubuntu-mate.org/download/)
 
-Open the downloaded file with [Keka](http://www.kekaosx.com/en/)
-
-Run `sudo raspi-config` to expand the filesystem.
+Open the downloaded file with [Keka](http://www.kekaosx.com/en/).
 
 Ubuntu desktop requires you to initially login with a keyboard and monitor to setup the
 system.

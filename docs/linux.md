@@ -1,6 +1,6 @@
-# Linux Admin
+# Linux Notes
 
-These notes apply to Ubuntu and Raspbian.
+These notes apply to the Ubuntu and Raspbian distross.
 
 ## General installation
 
@@ -9,6 +9,8 @@ Enable SSH with:
 ```bash
 $ sudo apt-get install openssh-server
 ```
+
+Note: You may also have to enable SSH within `raspi-config` as well.
 
 Install MDNS (enabling hostname.local usage) with: 
 

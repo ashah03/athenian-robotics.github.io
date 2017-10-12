@@ -1,4 +1,4 @@
-# EV3 Administration
+# EV3 Notes
 
 For full ev3dev documentation visit 
 [here](http://www.ev3dev.org).

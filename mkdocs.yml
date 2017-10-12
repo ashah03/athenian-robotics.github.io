@@ -7,8 +7,8 @@ pages:
 - Home: index.md
 - Github Repos: github-repos.md
 - Linux:
-  - Ubuntu: ubuntu.md
   - Raspbian: raspbian.md
+  - Ubuntu: ubuntu.md
   - General Linux: linux.md
 - ROS:
   - Admin: ros-admin.md
