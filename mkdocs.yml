@@ -6,6 +6,10 @@ site_author: Athenian Robotics Team
 pages:
 - Home: index.md
 - Github Repos: github-repos.md
+- Linux:
+  - Ubuntu: ubuntu.md
+  - Raspbian: raspbian.md
+  - General Linux: linux.md
 - ROS:
   - Admin: ros-admin.md
   - Commands: ros-commands.md
@@ -16,7 +20,7 @@ pages:
   - Packages: python-packages.md
   - Tutorials: python-tutorials.md
   - REPL 1: repl1.md
-- Software Notes:
+- Software:
   - Git: git.md
   - Go: go-admin.md
   - PyCharm: pycharm.md
@@ -25,7 +29,6 @@ pages:
   - Plot.ly: plotly.md
   - nginx: nginx.md
   - XQuartz: xquartz.md
-  - Ubuntu: ubuntu.md
   - APT: apt.md
   - Gazebo: gazebo.md
   - Prometheus: prometheus.md
@@ -33,7 +36,7 @@ pages:
   - Kotlin: kotlin.md
   - Grafana: grafana.md
   - MkDocs: mkdocs.md
-- Hardware Notes:
+- Hardware:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
   - SD Cards: sdcards.md
@@ -50,7 +53,6 @@ pages:
   - Adafruit Circuit Playground: circuitplayground.md
 - Machine Setup:
   - OSX: osx-setup.md
-  - Raspbian: raspbian.md
   - Raspberry Pi Zero W: raspipizero.md
   - Windows: windows-setup.md
 - Robots:

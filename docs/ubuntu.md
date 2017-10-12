@@ -1,5 +1,7 @@
 # Ubuntu Notes
 
+General Linux admin notes [here](./linux.md).
+
 ## Installing on Mac boot disk
 
 Good video: https://www.youtube.com/watch?v=IQIaDO9nR6Y
@@ -39,30 +41,6 @@ Once logged in, you can:
 3) expand the filesystem via `raspi-config`
 4) turn off GUI on init via `raspi-config`
 
-1) Add this to */etc/network/interfaces* :
-```
-allow-hotplug wlan0
-iface wlan0 inet dhcp
-wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-```
-
-2) Scan for available networks with:
-```bash
-$ sudo iwlist wlan0 scan
-```
-
-3) Add the desired SID to */etc/wpa_supplicant/wpa_supplicant.conf* :
-```
-network={
-    ssid="your_network_ssid_here"
-    psk="your_wifi_password"
-}
-```
-
-Install Chromium with:
-```bash
-$ sudo apt-get install chromium-browser
-```
 
 ## Ubuntu Mate Wifi Fixes
 
@@ -78,24 +56,6 @@ allow-hotplu wlan0
 iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 ```
+
 If a device is not managed in **/etc/network/interfaces**, then it will be avialable via the GUI.
 
-
-## General installation
-
-Enable SSH with: 
-
-```bash
-$ sudo apt-get install openssh-server
-```
-
-Install MDNS (enabling hostname.local usage) with: 
-
-```bash
-$ sudo apt-get install avahi-daemon
-```
-
-Install Chome with:
-```bash
-$ sudo apt install chromium-browser
-```
