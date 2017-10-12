@@ -1,10 +1,12 @@
 # ROS Notes 
 
+Ubuntu Kinetic ROS installation instructions are [here](http://wiki.ros.org/kinetic/Installation/Ubuntu).
+
 A good tutorial is [here](http://wiki.ros.org/ROS/Tutorials).
 
 Some ROS demos are [here](https://github.com/athenian-robotics/ros-demos).
 
-## ROS environment variables
+## ROS Environment Variables
 
 The *~/.bashrc* file should contain:
 
@@ -45,7 +47,7 @@ Run *roscore* with:
 $ docker run -it --rm  -p11311:11311  ros roscore
 ```
 
-### ROS uninstall
+### ROS Uninstall
 
 As described [here](https://answers.ros.org/question/57213/how-i-completely-remove-all-ros-from-my-system/):
 
@@ -53,7 +55,7 @@ As described [here](https://answers.ros.org/question/57213/how-i-completely-remo
 $ sudo apt-get remove ros-*
 ```
 
-### Video Server
+### ROS Video Server
 
 Details of the *web_video_server* package are [here](web_video_server).
 
@@ -66,10 +68,6 @@ Run *web_video_server* with:
 ```bash
 $ rosrun web_video_server web_video_server
 ```
-
-## ROS IDE
-
-The RoboWare IDE is [here](http://www.roboware.me/#/)
 
 
 

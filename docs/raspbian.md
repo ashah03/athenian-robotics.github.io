@@ -20,12 +20,16 @@ $ touch /Volumes/boot/ssh
 
 ## Login to Raspbian
 
+Instructions on how to connect directly to your Raspi from OSX via an ethernet cable 
+sare [here](https://mycyberuniverse.com/mac-os/connect-to-raspberry-pi-from-a-mac-using-ethernet.html). 
+Alternatively, you connect your Raspi to your routher via ethernet.
+
 Login to Raspbians with `ssh` using the username *pi* and password *raspberry*.
 ```bash
 $ ssh pi@raspberrypi
 Are you sure you want to continue connecting (yes/no)? yes
 Password: raspberry
-pi@raspberrypi:~ 
+pi@raspberrypi:~ $
 ```
 
 If you get a *Host key verification failed* error when using `ssh`, 
