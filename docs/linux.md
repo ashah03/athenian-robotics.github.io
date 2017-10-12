@@ -78,7 +78,11 @@ $ sudo nano /etc/wpa_supplicant/wpa_supplicant.conf
 
 The *network* entries should look like:
 ```snakeyaml
-network={
+country=US
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+
+  network={
     ssid="MyWiFiNetwork1"
     psk="the_password1"
     key_mgmt=WPA-PSK
@@ -188,3 +192,10 @@ Install Python 3 with:
 $ sudo apt-get install python3 python3-pip python3-dev
 ```
 
+## Vim Setup
+
+Create a *.vimrc* file containing this:
+```bash
+set ts=4 showmatch
+set ruler laststatus=2 title hlsearch
+```

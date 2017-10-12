@@ -66,6 +66,16 @@ You can check on the health of your `brew` installation with:
 $ brew doctor
 ```
 
+## Vim Setup
+
+Create a *.vimrc* file containing this:
+```bash
+set ts=4 showmatch
+set ruler laststatus=2 title hlsearch
+syntax on
+let python_highlight_all = 1
+```
+
 ## Overview of OSX Applications
 
 [https://github.com/jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
