@@ -55,9 +55,23 @@ As described [here](https://answers.ros.org/question/57213/how-i-completely-remo
 $ sudo apt-get remove ros-*
 ```
 
+### ROS Image Viewer
+
+Images published to topics can be viewed with [rqt_image_vew](http://wiki.ros.org/rqt_image_view)
+or the `rqt` *Image View* plugin.
+
+Install the necessary image transport plugins with:
+```bash
+$ sudo apt-get install ros-kinetic-image-transport-plugins
+```
+
+### ROS - OpenCV Bridge
+
+Details on converting images between ROS and OpenCV are [here](http://wiki.ros.org/cv_bridge/Tutorials/ConvertingBetweenROSImagesAndOpenCVImagesPython).
+
 ### ROS Video Server
 
-Details of the *web_video_server* package are [here](web_video_server).
+Details of the *web_video_server* package are [here](http://wiki.ros.org/web_video_server).
 
 Install *web_video_server* the with:
 ```bash
