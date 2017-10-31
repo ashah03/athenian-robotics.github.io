@@ -23,6 +23,10 @@ Install Chome with:
 $ sudo apt install chromium-browser
 ```
 
+To display X11 apps on Ubuntu from a headless Raspi,
+use [ssh -X](https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely).
+DISPLAY should not be set on the Raspi and xhost is not used on the Ubuntu client.
+
 ## Update OS
 
 Update Raspbian to the latest and greatest bits with:

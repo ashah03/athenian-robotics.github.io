@@ -56,6 +56,24 @@ Tab to <Finish> and then reboot.
 pi@raspberrypi:~ $ sudo raspi-config
 ```
 
+## Update firmware
+Update the Raspi firmware with:
+```bash
+$ sudo rpi-update
+```
+
+## Capture an image
+Capture an image from the camera with:
+```bash
+$ raspistill -o image.jpg
+```
+
+## View an image 
+View an image on a headless Raspi with:
+```bash
+$ sudo apt-get install feh
+$ feh image.jpg
+```
 
 ## Misc Raspbian Links
 
