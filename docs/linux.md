@@ -18,10 +18,16 @@ Install MDNS (enabling hostname.local usage) with:
 $ sudo apt-get install avahi-daemon avahi-discover libnss-mdns
 ```
 
-Install Chome with:
+Install Chrome with:
 ```bash
 $ sudo apt install chromium-browser
 ```
+
+If chromium-browser is not found, add the *universe* repository with:
+```bash
+$ sudo apt-add-repository universe
+```
+
 
 To display X11 apps on Ubuntu from a headless Raspi,
 use [ssh -X](https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely).
@@ -97,7 +103,7 @@ network={
     ssid="MyWiFiNetwork2"
     psk="the_password2"
     key_mgmt=WPA-PSK
-}
+}   
 ```
 
 Restart the Raspi WiFi with:

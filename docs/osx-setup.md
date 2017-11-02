@@ -76,6 +76,11 @@ syntax on
 let python_highlight_all = 1
 ```
 
+## Flush DNS cache
+```bash
+$ sudo killall -HUP mDNSResponder;sudo killall mDNSResponderHelper;sudo dscacheutil -flushcache
+```
+
 ## Overview of OSX Applications
 
 [https://github.com/jaywcjlove/awesome-mac](https://github.com/jaywcjlove/awesome-mac)
