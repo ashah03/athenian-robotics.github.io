@@ -23,6 +23,7 @@ pages:
 - Software:
   - Git: git.md
   - Go: go-admin.md
+  - Docker: docker.md
   - PyCharm: pycharm.md
   - Homebrew: homebrew.md
   - MQTT Broker: mqtt-broker.md
