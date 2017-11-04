@@ -52,6 +52,7 @@ pages:
   - roboRIO: roborio.md
   - Intel Euclid: euclid.md
   - Adafruit Circuit Playground: circuitplayground.md
+  - Machine Learning: ml.md
 - Machine Setup:
   - OSX: osx-setup.md
   - Raspberry Pi Zero W: raspipizero.md
