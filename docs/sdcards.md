@@ -12,14 +12,7 @@ Use [Etcher](https://etcher.io) to burn an image file to an SD card.
 
 ### OSX 
 
-Insert an SD card and determine the mount point with:
-```bash
-$ diskutil list
-```
+Create a backup of the the SD card as described [here](https://howchoo.com/g/ztqymgezm2u/create-a-backup-image-of-your-raspberry-pi-sd-card-in-mac-osx).
+Choose the compressed option to save sapce on your disk.
 
-If the mount point were */dev/disk3*, copy the contents to *~/Desktop/raspberrypi.dmg* with:
-```bash
-$ sudo dd if=/dev/disk3 of=~/Desktop/raspberrypi.dmg
-```
-
-After creating the *.img* file, use [Etcher](https://etcher.io) to burn the image file to an SD card.
+After creating the *.dmg* file, use [Etcher](https://etcher.io) to burn the image file to an SD card.
