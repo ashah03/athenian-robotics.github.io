@@ -24,7 +24,7 @@ $ diskutil unmountDisk /dev/disk2
 ```
 If the mount point were */dev/disk2*, copy the contents to *~/images/raspberrypi.img* with:
 ```bash
-$ sudo dd if=/dev/rdisk2 of=~/images/raspberrypi.img
+$ sudo dd if=/dev/rdisk2 of=~/images/raspberrypi.img bs=1m
 ```
 Notice the use of **rdisk2** instead of **disk2**. Also the *dd* process can take a long time to complete and it
 provides no visual feedback on its progress. 
