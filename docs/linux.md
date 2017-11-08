@@ -74,8 +74,11 @@ Discover what SIDs are available with:
 $ sudo iwlist wlan0 scan
 ```
 
-Add this to */etc/network/interfaces* :
+Add this to */etc/network/interfaces*:
 ```
+# Use this if there is a timing issue with wlan0 not being ready during boot and no IP address is assigned
+#pre-up sleep 3
+
 allow-hotplug wlan0
 iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
