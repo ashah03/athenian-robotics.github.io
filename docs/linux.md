@@ -48,7 +48,7 @@ $ sudo reboot now
 Remove unnecessary bits with:
 ```bash
 $ sudo apt-get remove --purge wolfram-engine
-    $ sudo apt-get remove --purge libreoffice*
+$ sudo apt-get remove --purge libreoffice*
 $ sudo apt-get clean
 $ sudo apt-get autoremove
 # To find other things to remove
@@ -193,6 +193,12 @@ Download a *VNCViewer* app from
 [here](https://www.realvnc.com/download/viewer/). 
 
 Start the *VNCViewer* app on the Mac and connect to the Raspi at `raspberrypi:1`.
+
+## Update firmware (Use this with caution)
+Update the Raspi firmware with:
+```bash
+$ sudo rpi-update
+```
 
 ## Install Python
 
