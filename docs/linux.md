@@ -194,12 +194,6 @@ Download a *VNCViewer* app from
 
 Start the *VNCViewer* app on the Mac and connect to the Raspi at `raspberrypi:1`.
 
-## Update firmware (Use this with caution)
-Update the Raspi firmware with:
-```bash
-$ sudo rpi-update
-```
-
 ## Install Python
 
 Install Python 2 with:
