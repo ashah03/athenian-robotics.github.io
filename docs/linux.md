@@ -115,6 +115,16 @@ $ sudo ifdown wlan0
 $ sudo ifup wlan0
 ```
 
+## To determine *wlan0* channels:
+```bash
+$ iwlist wlan0 channel
+```
+
+## To downgrade from `rpi-update`:
+```bash
+$ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
+```
+
 ## Set up ssh to not ask for a password
 
 Run `ssh-keygen` on the Mac, and hit return when asked for file in which to save the key and the passphrase.
