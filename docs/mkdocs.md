@@ -22,3 +22,5 @@ For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 A Markdown cheatsheet is 
 [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+
+Another Markdown cheatsheet is [here](https://www.data-blogger.com/2017/11/24/markdown-reference/).
