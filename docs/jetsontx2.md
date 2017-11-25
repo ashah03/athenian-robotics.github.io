@@ -18,3 +18,17 @@ Check [here](https://packages.ubuntu.com/search?suite=xenial&keywords=gazebo7-co
 To install *pycuda*, follow the directions [here](https://codeyarns.com/2015/07/31/pip-install-error-with-pycuda/) 
 (substituting 8.0 for the 7.0).
 
+## Anaconda Python
+
+You cannot install Anaconda python on the Jetson TX2 because there is no support for aarch64 architecture.
+
+## Numba
+
+To install *numba* outside of Anaconda, follow the directions [here](https://gist.github.com/jed-frey/ba40ff83523296bc8355f05befb28da9).
+The current *numba* requires llvm-config-4.0. Also, you must do a `sudo su -` before exporting LLVM_CONFIG:
+```bash
+$ sudo su -
+$ export LLVM_CONFIG=$(which llvm-config-4.0)
+$ pip install numba
+``` 
+
