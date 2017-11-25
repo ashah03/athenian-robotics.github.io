@@ -13,3 +13,8 @@ $ sudo apt-get install ros-kinetic-desktop-full  gazebo7-common=7.0.0+dfsg-2
 
 Check [here](https://packages.ubuntu.com/search?suite=xenial&keywords=gazebo7-common) for updates.
 
+## PyCuda
+
+To install *pycuda*, follow the directions [here](https://codeyarns.com/2015/07/31/pip-install-error-with-pycuda/) 
+(substituting 8.0 for the 7.0).
+
