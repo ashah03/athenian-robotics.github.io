@@ -24,11 +24,14 @@ You cannot install Anaconda python on the Jetson TX2 because there is no support
 
 ## Numba
 
-To install *numba* outside of Anaconda, follow the directions [here](https://gist.github.com/jed-frey/ba40ff83523296bc8355f05befb28da9).
-The current *numba* requires llvm-config-4.0. Also, you must do a `sudo su -` before exporting LLVM_CONFIG:
+Install *numba* outside of Anaconda with:
+
 ```bash
+$ sudo apt-get install llvm-config-4.0
 $ sudo su -
 $ export LLVM_CONFIG=$(which llvm-config-4.0)
 $ pip install numba
 ``` 
+Notes on this are [here](https://gist.github.com/jed-frey/ba40ff83523296bc8355f05befb28da9).
+
 
