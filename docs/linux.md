@@ -76,9 +76,6 @@ $ sudo iwlist wlan0 scan
 
 Add this to */etc/network/interfaces*:
 ```
-# Use this if there is a timing issue with wlan0 not being ready during boot and no IP address is assigned
-#pre-up sleep 3
-
 allow-hotplug wlan0
 iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
@@ -96,7 +93,7 @@ country=US
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
 update_config=1
 
-  network={
+network={
     ssid="MyWiFiNetwork1"
     psk="the_password1"
     key_mgmt=WPA-PSK
@@ -113,6 +110,11 @@ Restart the Raspi WiFi with:
 ```bash
 $ sudo ifdown wlan0
 $ sudo ifup wlan0
+```
+
+## To determine your IP address use:
+```bash
+$ ifconfig
 ```
 
 ## To determine *wlan0* channels:

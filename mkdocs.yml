@@ -6,6 +6,7 @@ site_author: Athenian Robotics Team
 pages:
 - Home: index.md
 - Github Repos: github-repos.md
+- Coding Resources: coding.md
 - Linux:
   - Raspbian: raspbian.md
   - Ubuntu: ubuntu.md
