@@ -28,3 +28,4 @@
 * [Hacker Rank](https://www.hackerrank.com)
 * [LeetCode](https://leetcode.com)
 
+Advice on learning programming is [here](http://norvig.com/21-days.html).
