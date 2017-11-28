@@ -28,20 +28,3 @@
 * [Hacker Rank](https://www.hackerrank.com)
 * [LeetCode](https://leetcode.com)
 
-## Circuit Playground
-* [Adafruit Circuit Playground Express](https://www.adafruit.com/product/3333)
-* [Adafruit Makecode IDE](https://makecode.adafruit.com)
-* [CircuitPython Examples](https://github.com/athenian-robotics/circuitpython-examples)
-
-## Shell Tutorials
-* [Basic SSH Commands](https://www.hostinger.com/tutorials/ssh/basic-ssh-commands)
-* [Bash Guide](https://github.com/Idnan/bash-guide)
-* [Learn just enough Linux to get things done](http://alexpetralia.com/posts/2017/6/26/learning-linux-bash-to-get-things-done)
-
-## Vi Tutorials
-* [Learning Vim Resources](https://medium.freecodecamp.org/vim-isnt-that-scary-here-are-5-free-resources-you-can-use-to-learn-it-ab78f5726f8d)
-* [Vim Cheatsheet](http://vimsheet.com)
-
-## Markdown Tutorials
-* [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Markdown Reference](https://www.data-blogger.com/2017/11/24/markdown-reference/)

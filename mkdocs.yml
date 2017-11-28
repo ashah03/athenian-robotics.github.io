@@ -37,7 +37,11 @@ pages:
   - AI Projects: ai-projects.md
   - Kotlin: kotlin.md
   - Grafana: grafana.md
+  - Markdown: markdown.md
   - MkDocs: mkdocs.md
+- Tutorials:
+  - vim: vim.md
+  - Shell: shell.md
 - Hardware:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
