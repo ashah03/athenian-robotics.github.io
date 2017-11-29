@@ -226,3 +226,9 @@ let python_highlight_all = 1
 $ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
 ```
 
+## Misc useful commands
+
+Install [ncdu](https://dev.yorhel.nl/ncdu) with:
+```bash
+$ sudo apt-get install ncdu
+```
