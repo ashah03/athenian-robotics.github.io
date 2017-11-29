@@ -2,37 +2,6 @@
 
 These notes apply to the Ubuntu and Raspbian distross.
 
-## General installation
-
-Enable SSH with: 
-
-```bash
-$ sudo apt-get install openssh-server
-```
-
-Note: You may also have to enable SSH within `raspi-config` as well.
-
-Install MDNS (enabling hostname.local usage) with: 
-
-```bash
-$ sudo apt-get install avahi-daemon avahi-discover libnss-mdns
-```
-
-Install Chrome with:
-```bash
-$ sudo apt install chromium-browser
-```
-
-If chromium-browser is not found, add the *universe* repository with:
-```bash
-$ sudo apt-add-repository universe
-```
-
-
-To display X11 apps on Ubuntu from a headless Raspi,
-use [ssh -X](https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely).
-DISPLAY should not be set on the Raspi and xhost is not used on the Ubuntu client.
-
 ## Update OS
 
 Update Raspbian to the latest and greatest bits with:
@@ -122,10 +91,29 @@ $ ifconfig
 $ iwlist wlan0 channel
 ```
 
-## To downgrade from `rpi-update`:
+## Installing MDNS and Chrome
+
+Install MDNS (enabling hostname.local usage) with: 
+
 ```bash
-$ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
+$ sudo apt-get install avahi-daemon avahi-discover libnss-mdns
 ```
+
+Install Chrome with:
+```bash
+$ sudo apt install chromium-browser
+```
+
+If chromium-browser is not found, add the *universe* repository with:
+```bash
+$ sudo apt-add-repository universe
+```
+
+
+To display X11 apps on Ubuntu from a headless Raspi,
+use [ssh -X](https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely).
+DISPLAY should not be set on the Raspi and xhost is not used on the Ubuntu client.
+
 
 ## Set up ssh to not ask for a password
 
@@ -231,5 +219,10 @@ set ts=4 showmatch
 set ruler laststatus=2 title hlsearch
 syntax on
 let python_highlight_all = 1
+```
+
+## To downgrade from `rpi-update`:
+```bash
+$ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
 ```
 
