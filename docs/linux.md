@@ -228,7 +228,7 @@ $ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
 
 ## Misc useful commands
 
-Install [ncdu](https://dev.yorhel.nl/ncdu) with:
+Install [ncdu](https://murze.be/view-disk-space-usage-on-ubuntu) with:
 ```bash
 $ sudo apt-get install ncdu
 ```

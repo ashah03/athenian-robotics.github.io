@@ -1,7 +1,8 @@
 # Coding Resources
 
 ## Visual Programming 
-* [Blockly Games](https://blockly-games.appspot.com/?lang=en).
+* [Blockly](https://developers.google.com/blockly/)
+* [Blockly Games](https://blockly-games.appspot.com/)
 
 ## CodeHS Classes
 * Sign up for **Intro to Karel** [here](http://codehs.com/go/AB04E) (Class code: AB04E) 

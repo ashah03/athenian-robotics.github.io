@@ -42,6 +42,18 @@ pages:
 - Tutorials:
   - vim: vim.md
   - Shell: shell.md
+  - Machine Learning: ml.md
+- Machine Setup:
+  - OSX: osx-setup.md
+  - Raspberry Pi Zero W: raspipizero.md
+  - Windows: windows-setup.md
+- Robots:
+  - TurtleBot3: turtlebot3.md
+  - GoPiGo: gopigo.md
+  - EV3:
+    - Admin: ev3-admin.md
+    - Python: ev3-python.md
+    - ROS: ev3-ros.md
 - Hardware:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
@@ -57,18 +69,7 @@ pages:
   - roboRIO: roborio.md
   - Intel Euclid: euclid.md
   - Adafruit Circuit Playground: circuitplayground.md
-  - Machine Learning: ml.md
-- Machine Setup:
-  - OSX: osx-setup.md
-  - Raspberry Pi Zero W: raspipizero.md
-  - Windows: windows-setup.md
-- Robots:
-  - TurtleBot3: turtlebot3.md
-  - GoPiGo: gopigo.md
-  - EV3:
-    - Admin: ev3-admin.md
-    - Python: ev3-python.md
-    - ROS: ev3-ros.md
+  - BBC micro:bit: microbit.md
 - Education:
   - Robots: education-robots.md
   - Software: education-software.md
