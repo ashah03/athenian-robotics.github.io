@@ -7,3 +7,5 @@
 * [Java to Kotlin Cheatsheet](https://github.com/MindorksOpenSource/from-java-to-kotlin)
 
 * [Install Kotlin-Koans into IntelliJ](https://www.jetbrains.com/education/kotlin-edu/)
+
+* [Kotlin and Java Comparison](https://hackernoon.com/how-effective-java-may-have-influenced-the-design-of-kotlin-part-1-45fd64c2f974)
