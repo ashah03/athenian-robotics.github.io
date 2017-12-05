@@ -1,11 +1,8 @@
 # Installing ROS on an EV3 
 
 * Flash an SD card with an [ev3dev-stretch](https://oss.jfrog.org/list/oss-snapshot-local/org/ev3dev/brickstrap/) image
-
 * Boot it
-
 * Connect the EV3 to the Internet
-
 * Connect to the EV3 with: `ssh robot@ev3dev` (password: maker)
 
 Add these statements to the bottom of `~/.bashrc`:

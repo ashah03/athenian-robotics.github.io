@@ -39,6 +39,7 @@ pages:
   - Grafana: grafana.md
   - Markdown: markdown.md
   - MkDocs: mkdocs.md
+  - Web Services: webservices.md
 - Tutorials:
   - vim: vim.md
   - Shell: shell.md

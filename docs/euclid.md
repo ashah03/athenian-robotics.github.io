@@ -9,9 +9,7 @@ Euclid workspace is at: /intel/euclid/euclid_ws
 ## Setting up Wi-Fi
 
 1) Connect to the Euclid hotspot (password: 12345678)
-
 2) Setup a connection to an available SSID.
-
 3) Set the Euclid to use the new SSID and reboot.
 
 ## Connecting
