@@ -1,4 +1,4 @@
-# Kotlin Notes
+# Kotlin Posts
 
 * [Kotlin Introduction](https://android.jlelse.eu/kotlin-now-official-android-language-36364b4914c1)
 
@@ -13,3 +13,5 @@
 * [Java to Kotlin Experience](https://hackernoon.com/how-kotlin-calamity-devours-your-java-apps-like-cancer-f3ce9500a028)
 
 * [Kotlin Overview](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5)
+
+* [Favorite Kotlin Features](https://blog.simon-wirtz.de/kotlin-features-miss-java/)
