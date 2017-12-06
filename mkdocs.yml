@@ -47,7 +47,6 @@ pages:
 - Machine Setup:
   - OSX: osx-setup.md
   - Raspberry Pi Zero W: raspipizero.md
-  - Windows: windows-setup.md
 - Robots:
   - TurtleBot3: turtlebot3.md
   - GoPiGo: gopigo.md
