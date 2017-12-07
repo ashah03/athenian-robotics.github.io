@@ -7,25 +7,40 @@ pages:
 - Home: index.md
 - Github Repos: github-repos.md
 - Coding Resources: coding.md
-- Linux:
-  - Raspbian: raspbian.md
-  - Ubuntu: ubuntu.md
-  - General Linux: linux.md
+- Operating Systems:
+  - OSX: osx-setup.md
+  - Linux:
+    - Raspbian: raspbian.md
+    - Ubuntu: ubuntu.md
+    - General Linux: linux.md
+    - Raspberry Pi Zero W: raspipizero.md
 - ROS:
   - Admin: ros-admin.md
   - Commands: ros-commands.md
   - ROS Serial: ros-serial.md
-- Python:
-  - Admin: python-admin.md
-  - Links: python-links.md
-  - Packages: python-packages.md
-  - Tutorials: python-tutorials.md
-  - REPL 1: repl1.md
+- Languages:
+  - Python:
+    - Learning: python-tutorials.md
+    - Admin: python-admin.md
+    - Packages: python-packages.md
+    - REPL 1: repl1.md
+    - PyCharm: pycharm.md
+  - Kotlin: kotlin.md
+  - Go: go-admin.md
+- Tutorials:
+  - vim: vim.md
+  - Shell: shell.md
+  - Machine Learning: ml.md
+- Robots:
+  - TurtleBot3: turtlebot3.md
+  - GoPiGo: gopigo.md
+  - EV3:
+    - Admin: ev3-admin.md
+    - Python: ev3-python.md
+    - ROS: ev3-ros.md
 - Software:
   - Git: git.md
-  - Go: go-admin.md
   - Docker: docker.md
-  - PyCharm: pycharm.md
   - Homebrew: homebrew.md
   - MQTT Broker: mqtt-broker.md
   - Plot.ly: plotly.md
@@ -35,25 +50,10 @@ pages:
   - Gazebo: gazebo.md
   - Prometheus: prometheus.md
   - AI Projects: ai-projects.md
-  - Kotlin: kotlin.md
   - Grafana: grafana.md
   - Markdown: markdown.md
   - MkDocs: mkdocs.md
   - Web Services: webservices.md
-- Tutorials:
-  - vim: vim.md
-  - Shell: shell.md
-  - Machine Learning: ml.md
-- Machine Setup:
-  - OSX: osx-setup.md
-  - Raspberry Pi Zero W: raspipizero.md
-- Robots:
-  - TurtleBot3: turtlebot3.md
-  - GoPiGo: gopigo.md
-  - EV3:
-    - Admin: ev3-admin.md
-    - Python: ev3-python.md
-    - ROS: ev3-ros.md
 - Hardware:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
@@ -70,6 +70,7 @@ pages:
   - Intel Euclid: euclid.md
   - Adafruit Circuit Playground: circuitplayground.md
   - BBC micro:bit: microbit.md
+- Miscellaneous: miscellaneous.md
 - Education:
   - Robots: education-robots.md
   - Software: education-software.md

@@ -6,9 +6,7 @@
 
 [Python on OSX](https://medium.com/@briantorresgil/definitive-guide-to-python-on-mac-osx-65acd8d969d0)
 
-
-Installation details are 
-[here](http://docs.python-guide.org/en/latest/starting/install3/osx/).
+Installation details are [here](http://docs.python-guide.org/en/latest/starting/install3/osx/).
 
 Python3 requires `gcc`, which you can get by installing 
 [XCode](http://developer.apple.com/xcode/) or 

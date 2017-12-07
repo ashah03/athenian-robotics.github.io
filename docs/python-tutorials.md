@@ -1,7 +1,20 @@
-# Python Tutorials
+# Learning Python 
 
+## Tutorials
 
 * [Google Python Tutorial](https://developers.google.com/edu/python/)
 * [Python Programming Basics](https://dzone.com/articles/python-programming-basics-with-examples)
+* [Learn Python](https://www.learnpython.org)
 * [List Comprehensions](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
-* [Controlling a USB Missile Launcher](http://www.rkblog.rk.edu.pl/w/p/controlling-usb-missile-launchers-python/)
+* [Python Cheatsheets](https://www.pythonsheets.com)
+
+## Books
+* [Think Python Book](http://greenteapress.com/wp/think-python/)
+
+## IDEs 
+* [PyCharm](https://www.jetbrains.com/pycharm/download/)
+* [PyCharm Edu](https://www.jetbrains.com/pycharm-edu/download/)
+
+## Cloud REPLs
+* [Jupyter](https://try.jupyter.org)  (New->Terminal)
+
