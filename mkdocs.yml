@@ -42,7 +42,8 @@ pages:
   - Git: git.md
   - Docker: docker.md
   - Homebrew: homebrew.md
-  - MQTT Broker: mqtt-broker.md
+  - gRPC: grpc.md
+  - OpenCV: opencv.md
   - Plot.ly: plotly.md
   - nginx: nginx.md
   - XQuartz: xquartz.md
@@ -54,6 +55,8 @@ pages:
   - Markdown: markdown.md
   - MkDocs: mkdocs.md
   - Web Services: webservices.md
+  - MQTT Client: mqtt-client.md
+  - MQTT Broker: mqtt-broker.md
 - Hardware:
   - Nvidia Jetson TX2: jetsontx2.md
   - Logitech Joystick: joystick.md
