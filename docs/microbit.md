@@ -1,3 +1,5 @@
 # BBC micro:bit 
 
-A great curated list of micro_bit resources is [here](https://github.com/carlosperate/awesome-microbit).
+* [Curated list of micro_bit resources](https://github.com/carlosperate/awesome-microbit)
+* [Microbit project ideas](http://www.multiwingspan.co.uk/micro.php)
+* [Microbit Sensor Alarm](https://www.sparkfun.com/news/2373)

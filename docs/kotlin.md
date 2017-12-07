@@ -9,3 +9,4 @@
 * [Kotlin Overview](https://medium.com/@magnus.chatt/why-you-should-totally-switch-to-kotlin-c7bbde9e10d5)
 * [Favorite Kotlin Features](https://blog.simon-wirtz.de/kotlin-features-miss-java/)
 * [Kotlin Pitfalls](https://medium.freecodecamp.org/kotlin-pitfalls-and-how-to-avoid-them-7b0d3a2109ad)
+* [What is Kotlin](https://www.infoworld.com/article/3224868/java/what-is-kotlin-the-java-alternative-explained.html)

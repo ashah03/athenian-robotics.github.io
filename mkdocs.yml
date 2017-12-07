@@ -54,6 +54,7 @@ pages:
   - Grafana: grafana.md
   - Markdown: markdown.md
   - MkDocs: mkdocs.md
+  - Databases: databases.md
   - Web Services: webservices.md
   - MQTT Client: mqtt-client.md
   - MQTT Broker: mqtt-broker.md
