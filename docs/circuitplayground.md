@@ -2,23 +2,14 @@
 
 ## Basics
 
-[Circuit Playground Express](https://www.adafruit.com/product/3333)
-
-[Adafruit Makecode IDE](https://makecode.adafruit.com)
-
-[Makecode Primer](https://learn.adafruit.com/makecode?view=all&embeds=allow)
-
-[Makecode and Sensors](https://learn.adafruit.com/sensors-in-makecode?view=all&embeds=allow)
-
-[Makecode and Neopixels](https://learn.adafruit.com/neopixels-with-makecode?view=all&embeds=allow)
-
-[Sound and Music]()
-
-[Infrared Support](https://learn.adafruit.com/infrared-transmit-and-receive-on-circuit-playground-express-in-c-plus-plus-2/infrared-testpattern?view=all#overview)
-
-[CircuitPython Setup](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/circuitpython-setup)
-
-[CircuitPython Examples](https://github.com/athenian-robotics/circuitpython-examples)
+* [Circuit Playground Express](https://www.adafruit.com/product/3333)
+* [Adafruit Makecode IDE](https://makecode.adafruit.com)
+* [Makecode Primer](https://learn.adafruit.com/makecode?view=all&embeds=allow)
+* [Makecode and Sensors](https://learn.adafruit.com/sensors-in-makecode?view=all&embeds=allow)
+* [Makecode and Neopixels](https://learn.adafruit.com/neopixels-with-makecode?view=all&embeds=allow)
+* [Infrared Support](https://learn.adafruit.com/infrared-transmit-and-receive-on-circuit-playground-express-in-c-plus-plus-2/infrared-testpattern?view=all#overview)
+* [CircuitPython Setup](https://learn.adafruit.com/adafruit-feather-m0-express-designed-for-circuit-python-circuitpython/circuitpython-setup)
+* [CircuitPython Examples](https://github.com/athenian-robotics/circuitpython-examples)
 
 ## Projects
 
