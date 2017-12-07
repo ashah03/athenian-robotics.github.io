@@ -27,12 +27,12 @@ After editing the *settings.ini* file, reset services with:
 sudo service oobe-init restart-oobe
 ```
 
-To stop services:
+Stop services with:
 ```
 sudo service oobe-init 
 ```
 
-To start services:
+Start services with:
 ```
 sudo service oobe-init start
 ```
