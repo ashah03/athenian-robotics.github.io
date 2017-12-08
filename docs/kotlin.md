@@ -10,3 +10,5 @@
 * [Favorite Kotlin Features](https://blog.simon-wirtz.de/kotlin-features-miss-java/)
 * [Kotlin Pitfalls](https://medium.freecodecamp.org/kotlin-pitfalls-and-how-to-avoid-them-7b0d3a2109ad)
 * [What is Kotlin](https://www.infoworld.com/article/3224868/java/what-is-kotlin-the-java-alternative-explained.html)
+* [Demystifying Advanced Kotlin Concepts Pt 1](https://dev.to/praveenkajla/demystifying-advance-kotlin-concepts-a97)
+* [Demystifying Advanced Kotlin Concepts Pt 2](https://dev.to/praveenkajla/demystifying-advanced-kotlin-concepts-pt2-1-5bl)
