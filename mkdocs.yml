@@ -40,7 +40,8 @@ pages:
     - ROS: ev3-ros.md
 - Software:
   - Git: git.md
-  - Docker and Kubernetes: containers.md
+  - Docker: docker.md
+  - Kubernetes: kubernetes.md
   - Homebrew: homebrew.md
   - gRPC: grpc.md
   - OpenCV: opencv.md
