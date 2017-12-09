@@ -1,7 +1,7 @@
 # Git Notes
 
-A good [Git](https://git-scm.com) tutorial is 
-[here](https://try.github.io/levels/1/challenges/1)
+* [Git Tutorial](https://try.github.io/levels/1/challenges/1)
+* [What is Git](https://codeburst.io/so-wtf-is-git-fa7daa0e0271)
 
 ## Installation
 
