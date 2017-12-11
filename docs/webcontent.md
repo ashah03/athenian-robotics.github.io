@@ -1,4 +1,4 @@
 # Web Content
 
 
-* [Coolaborative Web Authoring](https://codepen.io)
+* [Collaborative Web Authoring](https://codepen.io)

@@ -13,7 +13,9 @@
 
 ## Projects
 
-[Laser Tag](https://learn.adafruit.com/circuit-playground-express-laser-tag?view=all&embeds=allow)
+* [Laser Tag](https://learn.adafruit.com/circuit-playground-express-laser-tag?view=all&embeds=allow)
+* [Circuit Playground Password Vault](https://learn.adafruit.com/circuit-playground-password-vault)
+* [Digital Fidget Spinner](https://learn.adafruit.com/digital-fidget-spinner?view=all)
 
 ## UF2 Bootloader Details
 

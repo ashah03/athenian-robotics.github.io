@@ -52,3 +52,8 @@ host machine with:
  $ pip3 install python-ev3dev
  ```
 
+## EV3 Projects
+* [EV3 Balancing Robot](http://robotsquare.com/2013/12/10/ev3-balancing-program-progress/)
+* [EV3 Snake](https://www.youtube.com/watch?v=kHUkGucSeU0)
+* [EV3 Lidar](https://www.youtube.com/watch?v=G6uVg34VzHw)
+* [EV3 Rubic's Cube Solver](http://www.instructables.com/id/EVB-Rubics-Cube-Solver/)

@@ -1,11 +1,9 @@
 # OpenCV 
 
-OpenCV is described in detail [here](http://opencv.org).
-
-A great OpenCV resource is [pyimagesearch](http://www.pyimagesearch.com).
-
-A good OpenCV Python tutorial is 
-[here](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html).
+* [OpenCV Home](http://opencv.org)
+* [pyimagesearch](http://www.pyimagesearch.com)
+* [OpenCV Python tutorial](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_tutorials.html)
+* [Setting up OpenCV on Raspian Stretch](http://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/)
 
 ## Setup
 
