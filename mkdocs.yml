@@ -76,6 +76,7 @@ pages:
   - Intel Euclid: euclid.md
   - Adafruit Circuit Playground: circuitplayground.md
   - BBC micro:bit: microbit.md
+- Cool Projects: projects.md
 - Miscellaneous: miscellaneous.md
 - Education:
   - Robots: education-robots.md
