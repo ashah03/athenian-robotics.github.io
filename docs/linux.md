@@ -1,6 +1,6 @@
 # Linux Notes
 
-These notes apply to the Ubuntu and Raspbian distross.
+These notes apply to the Ubuntu and Raspbian distros.
 
 ## Update OS
 
@@ -38,10 +38,7 @@ Detailed instructions are
 
 Alternative directions are [here](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-3-network-setup/setting-up-wifi-with-occidentalis).
 
-Discover what SIDs are available with:
-```bash
-$ sudo iwlist wlan0 scan
-```
+Discover what SIDs are available with: `sudo iwlist wlan0 scan`
 
 Add this to */etc/network/interfaces*:
 ```
@@ -75,21 +72,19 @@ network={
 }   
 ```
 
-Restart the Raspi WiFi with:
-```bash
-$ sudo ifdown wlan0
-$ sudo ifup wlan0
-```
+Stop *wlan0* with: `sudo ifdown wlan0`
 
-## To determine your IP address use:
-```bash
-$ ifconfig
-```
+Start *wlan0* with: `sudo ifup wlan0`
 
-## To determine *wlan0* channels:
-```bash
-$ iwlist wlan0 channel
-```
+Restart networking with: `sudo /etc/init.d/networking restart`
+
+Look at the log with: `systemctl status networking.service`
+
+Determine your IP address with: `ifconfig`
+
+Get *wlan0* status with: `iwconfig`
+
+Determine *wlan0* channels with: `iwlist wlan0 channel`
 
 ## Installing MDNS and Chrome
 
