@@ -88,11 +88,20 @@ Determine *wlan0* channels with: `iwlist wlan0 channel`
 
 ## Installing MDNS and Chrome
 
-Install MDNS (enabling hostname.local usage) with: `sudo apt-get install avahi-daemon avahi-discover libnss-mdns`
+Install MDNS (enabling hostname.local usage) with: 
+```bash
+$ sudo apt-get install avahi-daemon avahi-discover libnss-mdns
+```
 
-Install Chrome with: `sudo apt install chromium-browser`
+Install Chrome with: 
+```bash
+$ sudo apt install chromium-browser
+```
 
-If chromium-browser is not found, add the *universe* repository with: `sudo apt-add-repository universe`
+If chromium-browser is not found, add the *universe* repository with: 
+```bash
+$ sudo apt-add-repository universe
+```
 
 To display X11 apps on Ubuntu from a headless Raspi,
 use [ssh -X](https://unix.stackexchange.com/questions/12755/how-to-forward-x-over-ssh-to-run-graphics-applications-remotely).
@@ -191,6 +200,12 @@ let python_highlight_all = 1
 
 ## Misc useful commands
 
-Downgrade from *rpi-update* with: `sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel`
+Downgrade from *rpi-update* with: 
+```bash
+$ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
+```
 
-Install [ncdu](https://murze.be/view-disk-space-usage-on-ubuntu) with: `sudo apt-get install ncdu`
+Install [ncdu](https://murze.be/view-disk-space-usage-on-ubuntu) with: 
+```bash
+$ sudo apt-get install ncdu
+```
