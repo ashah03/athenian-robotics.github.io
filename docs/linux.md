@@ -126,10 +126,7 @@ into *~/.ssh/authorized_keys* on the Raspi.
 $ sudo nano ~/.ssh/authorized_keys
 ```
 
-Set the proper permissions for *~/.ssh/authorized_keys* with:
-```bash
-$ chmod 600 ~/.ssh/authorized_keys
-```
+Set the proper permissions for *~/.ssh/authorized_keys* with: `chmod 600 ~/.ssh/authorized_keys`
 
 You should now be able to ssh to the Raspi without a password.
 
@@ -167,10 +164,7 @@ not likely dealing with malicious hosts.
 
 Details are [here](http://www.instructables.com/id/How-to-share-files-between-Mac-OSX-and-Raspberry-P/?ALLSTEPS).
 
-Enable file sharing with:
-```bash
-$ sudo apt-get install netatalk
-```
+Enable file sharing with: `sudo apt-get install netatalk`
 
 ## Enable VNC
 
@@ -184,29 +178,19 @@ $ vncserver :1 -geometry 1024x728 -depth 24
 
 Use `-geometry 2048x1456` for a larger display.
 
-Download a *VNCViewer* app from 
-[here](https://www.realvnc.com/download/viewer/). 
+Download a *VNCViewer* app from [here](https://www.realvnc.com/download/viewer/). 
 
 Start the *VNCViewer* app on the Mac and connect to the Raspi at `raspberrypi:1`.
 
 ## Install Python
 
-Install Python 2 with:
-```bash
-$ sudo apt-get install python python-pip python-dev
-```
+Install Python 2 with: `sudo apt-get install python python-pip python-dev`
 
-Install Python 3 with:
-```bash
-$ sudo apt-get install python3 python3-pip python3-dev
-```
+Install Python 3 with: `sudo apt-get install python3 python3-pip python3-dev`
 
 ## Vim Setup
 
-Install vim with:
-```bash
-$ sudo apt-get install vim
-```
+Install vim with: `sudo apt-get install vim`
 
 Create a *.vimrc* file containing this:
 ```bash
@@ -216,14 +200,8 @@ syntax on
 let python_highlight_all = 1
 ```
 
-## To downgrade from `rpi-update`:
-```bash
-$ sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
-```
-
 ## Misc useful commands
 
-Install [ncdu](https://murze.be/view-disk-space-usage-on-ubuntu) with:
-```bash
-$ sudo apt-get install ncdu
-```
+Downgrade from `rpi-update` with: `sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel`
+
+Install [ncdu](https://murze.be/view-disk-space-usage-on-ubuntu) with: `sudo apt-get install ncdu`
