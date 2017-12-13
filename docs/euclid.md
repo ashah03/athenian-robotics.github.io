@@ -16,7 +16,7 @@ Euclid workspace is at: /intel/euclid/euclid_ws
 
 Connect to the euclid app at http://euclid.local
 
-`ssh` into the Euclid with: `ssh euclid@euclid` (PW: euclid)
+`ssh` into the Euclid with: `ssh euclid@euclid.local` (PW: euclid)
 
 ## Changing ROS vars
 
