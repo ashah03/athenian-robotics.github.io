@@ -24,3 +24,6 @@
 
 * [FRC-2017](https://github.com/athenian-robotics/FRC-2017):
 `git clone https://github.com/athenian-robotics/FRC-2017.git`
+
+* [FRC-2018](https://github.com/athenian-robotics/2018-Robot):
+`git clone https://github.com/athenian-robotics/2018-Robot.git`
